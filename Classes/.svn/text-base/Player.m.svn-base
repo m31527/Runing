@@ -1,0 +1,175 @@
+//
+//  Player.m
+//  Runing
+//
+//  Created by Mac on 2010/8/1.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "Player.h"
+#import "Game.h"
+
+
+@implementation Player
++ (id)scene{
+	CCScene *scene=[CCScene node];
+	Player *layer=[Player node];
+	[scene addChild:layer];
+	return scene;
+}
+
+- (id)init{
+	if((self=[super init])){
+		
+
+		
+		CCSprite *bg = [CCSprite spriteWithFile:@"player_select_bg.png"];
+		bg.position =ccp(160,240);
+		[self addChild:bg];
+		
+		
+		[CCMenuItemFont setFontName:@"Helvetica"];
+		//CCMenuItem *menuItem1 =[CCMenuItemFont itemFromString:@"Jump Start" target:self selector:@selector(scene1:)];
+		CCMenuItem *player1=[CCMenuItemImage itemFromNormalImage:@"black_sheep.png" selectedImage:@"black_sheep.png" target:self selector:@selector(scene1:)];
+		CCMenuItem *player2=[CCMenuItemImage itemFromNormalImage:@"cat_new.png" selectedImage:@"cat_new.png" target:self selector:@selector(scene2:)];
+		CCMenuItem *player3=[CCMenuItemImage itemFromNormalImage:@"eye.png" selectedImage:@"eye.png" target:self selector:@selector(scene3:)];
+		CCMenuItem *player4=[CCMenuItemImage itemFromNormalImage:@"snake.png" selectedImage:@"snake.png" target:self selector:@selector(scene4:)];
+			/*
+		CCMenuItem *player5=[CCMenuItemImage itemFromNormalImage:@"pig.png" selectedImage:@"pig.png" target:self selector:@selector(scene5:)];
+		CCMenuItem *player6=[CCMenuItemImage itemFromNormalImage:@"redneck.png" selectedImage:@"redneck.png" target:self selector:@selector(scene6:)];
+		CCMenuItem *player7=[CCMenuItemImage itemFromNormalImage:@"duck.png" selectedImage:@"duck.png" target:self selector:@selector(scene7:)];
+		CCMenuItem *player8=[CCMenuItemImage itemFromNormalImage:@"dog.png" selectedImage:@"dog.png" target:self selector:@selector(scene8:)];
+		CCMenuItem *player9=[CCMenuItemImage itemFromNormalImage:@"redneck_s_wife.png" selectedImage:@"redneck_s_wife.png" target:self selector:@selector(scene9:)];
+		CCMenuItem *player10=[CCMenuItemImage itemFromNormalImage:@"rabbit.png" selectedImage:@"rabbit.png" target:self selector:@selector(scene10:)];
+		CCMenuItem *player11=[CCMenuItemImage itemFromNormalImage:@"key_question.png" selectedImage:@"key_question.png" target:self selector:@selector(scene_disable:)];
+		CCMenuItem *player12=[CCMenuItemImage itemFromNormalImage:@"key_question.png" selectedImage:@"key_question.png" target:self selector:@selector(scene_disable:)];
+		*/
+		//CCMenuItem *menuItem2=[CCMenuItemFont itemFromString:@"About Game" target:self selector:@selector(scene2:)];
+		CCMenu *menu=[CCMenu menuWithItems:player1,player2,player3,player4,nil];
+
+		//[menu alignItemsVertically];
+		[menu alignItemsInColumns:
+		 [NSNumber numberWithUnsignedInt:3],
+		 [NSNumber numberWithUnsignedInt:1],
+		 //[NSNumber numberWithUnsignedInt:3],
+		 //[NSNumber numberWithUnsignedInt:3],
+		 nil
+		 ];
+		[menu setPosition:ccp(160,240)];
+		[self addChild:menu];
+		
+		
+		/*
+		CCMenuItem *playerx=[CCMenuItemImage itemFromNormalImage:@"step8_map.png" selectedImage:@"step8_map.png" target:self selector:@selector(scene_disable:)];
+		CCMenu *menux=[CCMenu menuWithItems:playerx,nil];
+		[menux alignItemsVertically];
+		[menux setPosition:ccp(150,400)];
+		[self addChild:menux];
+		
+		CCMenuItem *player1=[CCMenuItemImage itemFromNormalImage:@"step2_map.png" selectedImage:@"step2_map.png" target:self selector:@selector(scene_disable:)];
+		CCMenu *menu=[CCMenu menuWithItems:player1,nil];
+		[menu alignItemsVertically];
+		[menu setPosition:ccp(203,400)];
+		[self addChild:menu];
+
+		CCMenuItem *player2=[CCMenuItemImage itemFromNormalImage:@"step3_map.png" selectedImage:@"step3_map.png" target:self selector:@selector(scene_disable:)];
+		CCMenu *menu1=[CCMenu menuWithItems:player2,nil];
+
+		[menu1 alignItemsVertically];
+		[menu1 setPosition:ccp(250,300)];
+		[self addChild:menu1];
+		*/
+		
+		CCLabel* labeltitle = [CCLabel labelWithString:@"Player Selection" fontName:@"Marker Felt" fontSize:30];
+		[labeltitle setPosition:ccp(170,400)];
+		[self addChild: labeltitle];
+	}
+	return self;
+}
+
+- (void)scene1:(id)sender{
+	[self writeToPlist:@"1"];
+	CCScene *scene_new = [[CCScene node] addChild:[Game node]];
+	[[CCDirector sharedDirector] pushScene:scene_new];
+}
+
+- (void)scene2:(id)sender{
+	[self writeToPlist:@"2"];
+	CCScene *scene_new = [[CCScene node] addChild:[Game node]];
+	[[CCDirector sharedDirector] pushScene:scene_new];
+}
+
+- (void)scene3:(id)sender{
+	[self writeToPlist:@"3"];
+	CCScene *scene_new = [[CCScene node] addChild:[Game node]];
+	[[CCDirector sharedDirector] pushScene:scene_new];
+}
+
+- (void)scene4:(id)sender{
+	[self writeToPlist:@"4"];
+	CCScene *scene_new = [[CCScene node] addChild:[Game node]];
+	[[CCDirector sharedDirector] pushScene:scene_new];
+}
+
+- (void)scene5:(id)sender{
+	[self writeToPlist:@"5"];
+	CCScene *scene_new = [[CCScene node] addChild:[Game node]];
+	[[CCDirector sharedDirector] pushScene:scene_new];
+}
+
+- (void)scene6:(id)sender{
+	[self writeToPlist:@"6"];
+	CCScene *scene_new = [[CCScene node] addChild:[Game node]];
+	[[CCDirector sharedDirector] pushScene:scene_new];
+}
+
+- (void)scene7:(id)sender{
+	[self writeToPlist:@"7"];
+	CCScene *scene_new = [[CCScene node] addChild:[Game node]];
+	[[CCDirector sharedDirector] pushScene:scene_new];
+}
+
+- (void)scene8:(id)sender{
+	[self writeToPlist:@"8"];
+	CCScene *scene_new = [[CCScene node] addChild:[Game node]];
+	[[CCDirector sharedDirector] pushScene:scene_new];
+}
+
+- (void)scene9:(id)sender{
+	[self writeToPlist:@"9"];
+	CCScene *scene_new = [[CCScene node] addChild:[Game node]];
+	[[CCDirector sharedDirector] pushScene:scene_new];
+}
+
+- (void)scene10:(id)sender{
+	[self writeToPlist:@"10"];
+	CCScene *scene_new = [[CCScene node] addChild:[Game node]];
+	[[CCDirector sharedDirector] pushScene:scene_new];
+}
+
+- (void)scene_disable:(id)sender{
+}
+
+//寫入settings.plist 檔
+- (void)writeToPlist:(NSString *)lang
+{
+	if(lang !=nil){
+		NSError *error;
+		NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES); //1
+		NSString *documentsDirectory = [paths objectAtIndex:0]; //2
+		NSString *path = [documentsDirectory stringByAppendingPathComponent:@"mySettings.plist"]; //3
+		NSFileManager *fileManager = [NSFileManager defaultManager];
+		
+		if (![fileManager fileExistsAtPath: path]) //4
+		{
+			NSString *bundle = [[NSBundle mainBundle] pathForResource:@"mySettings" ofType:@"plist"]; //5
+			[fileManager copyItemAtPath:bundle toPath: path error:&error]; //6
+		}
+		
+		NSMutableDictionary *data = [[NSMutableDictionary alloc] initWithContentsOfFile: path];
+		[data setValue:(NSString *)lang forKey:@"Player"];
+		[data writeToFile: path atomically:NO];
+		[data release]; 
+	}
+}
+@end

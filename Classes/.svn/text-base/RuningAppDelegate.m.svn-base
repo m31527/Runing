@@ -1,0 +1,63 @@
+//
+//  RuningAppDelegate.m
+//  Runing
+//
+//  Created by Mac on 2010/7/29.
+//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//
+
+#import "RuningAppDelegate.h"
+#import "Game.h"
+#import "Main.h"
+#import "Menu.h"
+
+@implementation RuningAppDelegate
+
+@synthesize window;
+
+- (void)applicationDidFinishLaunching:(UIApplication *)application {
+	
+	[application setStatusBarStyle:UIStatusBarStyleBlackTranslucent animated:YES];
+	
+	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	//	[window setUserInteractionEnabled:YES];
+	//	[window setMultipleTouchEnabled:YES];	
+	
+	[[CCDirector sharedDirector] setPixelFormat:kRGBA8];
+	[[CCDirector sharedDirector] attachInWindow:window];
+	//	[[Director sharedDirector] setDisplayFPS:YES];
+	[[CCDirector sharedDirector] setAnimationInterval:1.0/kFPS];
+	
+	[CCTexture2D setDefaultAlphaPixelFormat:kTexture2DPixelFormat_RGBA8888]; 
+	
+	[window makeKeyAndVisible];
+	
+	//這裡可以加入很多場景
+	CCScene *scene = [[CCScene node] addChild:[Menu node] z:0];
+	[[CCDirector sharedDirector] runWithScene: scene];
+}
+
+- (void)dealloc {
+	[window release];
+	[super dealloc];
+}
+
+- (void)applicationWillResignActive:(UIApplication*)application {
+	[[CCDirector sharedDirector] pause];
+}
+
+- (void)applicationDidBecomeActive:(UIApplication*)application {
+	[[CCDirector sharedDirector] resume];
+}
+
+
+- (void)applicationDidReceiveMemoryWarning:(UIApplication*)application {
+	//[[CCDirector sharedDirector] purgeCachedData];
+}
+
+- (void)applicationSignificantTimeChange:(UIApplication*)application {
+	[[CCDirector sharedDirector] setNextDeltaTimeZero:YES];
+}
+
+
+@end

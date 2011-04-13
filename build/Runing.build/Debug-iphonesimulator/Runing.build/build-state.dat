@@ -1,0 +1,2912 @@
+TRuning
+v7
+r0
+t313218946.613957
+cCheck dependencies
+cProcessInfoPlistFile /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Info.plist Resources/Info.plist
+cCpResource build/Debug-iphonesimulator/Runing.app/fps_images.png Resources/fps_images.png
+cCpResource build/Debug-iphonesimulator/Runing.app/sprites.png sprites.png
+cCpResource build/Debug-iphonesimulator/Runing.app/playAgainButton.png playAgainButton.png
+cCpResource build/Debug-iphonesimulator/Runing.app/changePlayerButton.png changePlayerButton.png
+cCpResource build/Debug-iphonesimulator/Runing.app/bitmapFont.fnt bitmapFont.fnt
+cCpResource build/Debug-iphonesimulator/Runing.app/bitmapFont.png bitmapFont.png
+cCpResource build/Debug-iphonesimulator/Runing.app/icon.png icon.png
+cCpResource build/Debug-iphonesimulator/Runing.app/start_game.png start_game.png
+cCpResource build/Debug-iphonesimulator/Runing.app/rabbit.png rabbit.png
+cCpResource build/Debug-iphonesimulator/Runing.app/chiken.png chiken.png
+cCpResource build/Debug-iphonesimulator/Runing.app/mouse.png mouse.png
+cCpResource build/Debug-iphonesimulator/Runing.app/goose.png goose.png
+cCpResource build/Debug-iphonesimulator/Runing.app/redneck.png redneck.png
+cCpResource build/Debug-iphonesimulator/Runing.app/sheep.png sheep.png
+cCpResource build/Debug-iphonesimulator/Runing.app/redneck_s_wife.png redneck_s_wife.png
+cCpResource build/Debug-iphonesimulator/Runing.app/dog.png dog.png
+cCpResource build/Debug-iphonesimulator/Runing.app/player_select_bg.png player_select_bg.png
+cCpResource build/Debug-iphonesimulator/Runing.app/duck.png duck.png
+cCpResource build/Debug-iphonesimulator/Runing.app/key_question.png key_question.png
+cCopyPlistFile /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/mySettings.plist Resources/mySettings.plist
+cCpResource build/Debug-iphonesimulator/Runing.app/sprites10.png sprites10.png
+cCpResource build/Debug-iphonesimulator/Runing.app/sprites9.png sprites9.png
+cCpResource build/Debug-iphonesimulator/Runing.app/sprites8.png sprites8.png
+cCpResource build/Debug-iphonesimulator/Runing.app/sprites7.png sprites7.png
+cCpResource build/Debug-iphonesimulator/Runing.app/sprites6.png sprites6.png
+cCpResource build/Debug-iphonesimulator/Runing.app/sprites5.png sprites5.png
+cCpResource build/Debug-iphonesimulator/Runing.app/sprites4.png sprites4.png
+cCpResource build/Debug-iphonesimulator/Runing.app/sprites3.png sprites3.png
+cCpResource build/Debug-iphonesimulator/Runing.app/sprites2.png sprites2.png
+cCpResource build/Debug-iphonesimulator/Runing.app/Sheep.M4A Sheep.M4A
+cCpResource build/Debug-iphonesimulator/Runing.app/black_sheep.png black_sheep.png
+cCpResource build/Debug-iphonesimulator/Runing.app/menu_button.png menu_button.png
+cCpResource build/Debug-iphonesimulator/Runing.app/again_button.png again_button.png
+cCpResource build/Debug-iphonesimulator/Runing.app/Default.png Default.png
+cCpResource build/Debug-iphonesimulator/Runing.app/short_sheep.M4A short_sheep.M4A
+cCpResource build/Debug-iphonesimulator/Runing.app/step1.M4A step1.M4A
+cCpResource build/Debug-iphonesimulator/Runing.app/universe_map.png universe_map.png
+cCpResource build/Debug-iphonesimulator/Runing.app/player_backgroup.png player_backgroup.png
+cCpResource build/Debug-iphonesimulator/Runing.app/step2_map.png step2_map.png
+cCpResource build/Debug-iphonesimulator/Runing.app/step3_map.png step3_map.png
+cCpResource build/Debug-iphonesimulator/Runing.app/step4_map.png step4_map.png
+cCpResource build/Debug-iphonesimulator/Runing.app/step5_map.png step5_map.png
+cCpResource build/Debug-iphonesimulator/Runing.app/step6_map.png step6_map.png
+cCpResource build/Debug-iphonesimulator/Runing.app/step7_map.png step7_map.png
+cCpResource build/Debug-iphonesimulator/Runing.app/step8_map.png step8_map.png
+cCpResource build/Debug-iphonesimulator/Runing.app/cat_new.png cat_new.png
+cCpResource build/Debug-iphonesimulator/Runing.app/cat.M4A cat.M4A
+cCpResource build/Debug-iphonesimulator/Runing.app/play.png play.png
+cCpResource build/Debug-iphonesimulator/Runing.app/pause.png pause.png
+cCpResource build/Debug-iphonesimulator/Runing.app/eye.png eye.png
+cCpResource build/Debug-iphonesimulator/Runing.app/snake.png snake.png
+cCompileXIB /Users/Mac/Documents/Runing/Classes/MyViewController.xib
+cCompileXIB /Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.xib
+cCpResource build/Debug-iphonesimulator/Runing.app/player_4.png player_4.png
+cCpResource build/Debug-iphonesimulator/Runing.app/player_3.png player_3.png
+cCpResource build/Debug-iphonesimulator/Runing.app/player_2.png player_2.png
+cCpResource build/Debug-iphonesimulator/Runing.app/player_1.png player_1.png
+cCpResource build/Debug-iphonesimulator/Runing.app/snail.png snail.png
+cCpResource build/Debug-iphonesimulator/Runing.app/banana.png banana.png
+cCpResource build/Debug-iphonesimulator/Runing.app/pig.png pig.png
+cCpResource build/Debug-iphonesimulator/Runing.app/elephant.png elephant.png
+cCpResource build/Debug-iphonesimulator/Runing.app/mushroom.png mushroom.png
+cCpResource build/Debug-iphonesimulator/Runing.app/crab.png crab.png
+cCpResource build/Debug-iphonesimulator/Runing.app/sprites11.png sprites11.png
+cCpResource build/Debug-iphonesimulator/Runing.app/ajax-loader.gif ajax-loader.gif
+cCpResource build/Debug-iphonesimulator/Runing.app/putoo.sqlite Resources/putoo.sqlite
+cProcessPCH /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-bwirjveyrnqzgueaygmpwxnxpdxc/Runing_Prefix.pch.gch Runing_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/main-B9843B6026D6EFA4.o /Users/Mac/Documents/Runing/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/RuningAppDelegate.o /Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Main-591A58E3077D1916.o /Users/Mac/Documents/Runing/Classes/Main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Highscores.o /Users/Mac/Documents/Runing/Classes/Highscores.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Game.o /Users/Mac/Documents/Runing/Classes/Game.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Menu.o /Users/Mac/Documents/Runing/Classes/Menu.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Player.o /Users/Mac/Documents/Runing/Classes/Player.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/MyViewController.o /Users/Mac/Documents/Runing/Classes/MyViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/ScrollViewWithPagingViewController.o /Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Runing normal i386
+cGenerateDSYMFile /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app.dSYM /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Runing
+cTouch /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004CC79EB00000000000000132
+t1288150704
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C01F5AE00000000000C05A0
+t1275196846
+s787872
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C01F5AA000000000000065C
+t1275196842
+s1628
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BFF3B7600000000001C8900
+t1275018102
+s1870080
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004BFF3B620000000000000A23
+t1275018082
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004BFDFDB200000000000022F0
+t1274936754
+s8944
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004BFF3B9500000000000064FD
+t1275018133
+s25853
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004BFF3B950000000000001F45
+t1275018133
+s8005
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004BFF3B9A00000000000244F0
+t1275018138
+s148720
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004BFDFF0A000000000000094F
+t1274937098
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004BFDFF0A0000000000000A61
+t1274937098
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004BFDFF0A0000000000009369
+t1274937098
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004BFDFF0A0000000000003C4A
+t1274937098
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004BFDFF120000000000019D60
+t1274937106
+s105824
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C0458E90000000000151D30
+t1275353321
+s1383728
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/mach/mach_time.h
+c000000004A73D6540000000000000746
+t1249105492
+s1862
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/objc/objc.h
+c000000004BFDF9F40000000000000A2F
+t1274935796
+s2607
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/sqlite3.h
+c000000004BFDF9FB0000000000041A6F
+t1274935803
+s268911
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/sys/time.h
+c000000004A73D6550000000000001E17
+t1249105493
+s7703
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/lib/libsqlite3.0.dylib
+c000000004BFDFA0A0000000000079480
+t1274935818
+s496768
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/lib/libsqlite3.dylib
+c000000004BFDFA0A0000000000079480
+t1274935818
+s496768
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/lib/libz.dylib
+c000000004AD4F6ED0000000000005D2C
+t1255470829
+s23852
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C5A5EAD00000000000D2090
+t1280990893
+s860304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C5A5EA10000000000000703
+t1280990881
+s1795
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004C5A4D1600000000001E06E0
+t1280986390
+s1967840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004C5A4D020000000000000A23
+t1280986370
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004C5A4CD700000000000022F0
+t1280986327
+s8944
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004C5A4D3B00000000000064FD
+t1280986427
+s25853
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004C5A4D3B0000000000001F45
+t1280986427
+s8005
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004C5A4D4200000000000244B0
+t1280986434
+s148656
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004C5A4E4D000000000000094F
+t1280986701
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004C5A4E4D0000000000000A61
+t1280986701
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004C5A4E4D0000000000009369
+t1280986701
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004C5A4E4D0000000000003C4A
+t1280986701
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004C5A4E570000000000019D60
+t1280986711
+s105824
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A50EF0000000000154E50
+t1280987375
+s1396304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/mach/mach_time.h
+c000000004C5799000000000000000746
+t1280809216
+s1862
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/objc/objc.h
+c000000004C5A494F0000000000000A2F
+t1280985423
+s2607
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/sqlite3.h
+c000000004C5A494E000000000004252F
+t1280985422
+s271663
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/stdlib.h
+c000000004C5790920000000000002DF5
+t1280807058
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/string.h
+c000000004C5790920000000000001731
+t1280807058
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/sys/time.h
+c000000004C5798ED0000000000001E17
+t1280809197
+s7703
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/lib/libsqlite3.0.dylib
+c000000004C5A495F00000000000836C0
+t1280985439
+s538304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/lib/libz.dylib
+c000000004C5A495000000000000123E0
+t1280985424
+s74720
+
+N/Users/Mac/Documents/Runing/Classes/Coffee.h
+c000000004C6FA184000000000000037F
+t1282384260
+s895
+i<UIKit/UIKit.h>
+i<sqlite3.h>
+
+N/Users/Mac/Documents/Runing/Classes/Coffee.m
+c000000004C6FA2CD00000000000016F8
+t1282384589
+s5880
+i"Coffee.h"
+
+N/Users/Mac/Documents/Runing/Classes/Description.h
+c000000004C640BD90000000000000167
+t1281625049
+s359
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/Runing/Classes/Description.m
+c000000004C64099400000000000005B7
+t1281624468
+s1463
+i"Description.h"
+
+N/Users/Mac/Documents/Runing/Classes/Description.xib
+c000000004C64085A0000000000002054
+t1281624154
+s8276
+
+N/Users/Mac/Documents/Runing/Classes/Game.h
+c000000004C63F688000000000000018A
+t1281619592
+s394
+i"cocos2d.h"
+i"Main.h"
+
+N/Users/Mac/Documents/Runing/Classes/Game.m
+c000000004C79E26D000000000000441D
+t1283056237
+s17437
+i"Game.h"
+i"Main.h"
+i"Highscores.h"
+i"SimpleAudioEngine.h"
+
+N/Users/Mac/Documents/Runing/Classes/Highscores.h
+c000000004C63F6880000000000000131
+t1281619592
+s305
+i"cocos2d.h"
+i"Main.h"
+
+N/Users/Mac/Documents/Runing/Classes/Highscores.m
+c000000004C63F6880000000000002785
+t1281619592
+s10117
+i"Highscores.h"
+i"Main.h"
+i"Game.h"
+i"Menu.h"
+
+N/Users/Mac/Documents/Runing/Classes/Main.h
+c000000004C63F688000000000000029A
+t1281619592
+s666
+i"cocos2d.h"
+
+N/Users/Mac/Documents/Runing/Classes/Main.m
+c000000004C79D38F0000000000001460
+t1283052431
+s5216
+i"Main.h"
+i<mach/mach_time.h>
+
+N/Users/Mac/Documents/Runing/Classes/Menu.h
+c000000004C72851A0000000000000437
+t1282573594
+s1079
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/Mac/Documents/Runing/Classes/Menu.m
+c000000004C79C0300000000000002D4D
+t1283047472
+s11597
+i"Menu.h"
+i"Player.h"
+i"SimpleAudioEngine.h"
+i"RuningAppDelegate.h"
+i<sqlite3.h>
+
+N/Users/Mac/Documents/Runing/Classes/MyViewController.h
+c000000004BF8186300000000000001A8
+t1274550371
+s424
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/Runing/Classes/MyViewController.m
+c000000004C6412A600000000000006A3
+t1281626790
+s1699
+i"MyViewController.h"
+
+N/Users/Mac/Documents/Runing/Classes/MyViewController.xib
+c000000004C640CCB0000000000002451
+t1281625291
+s9297
+
+N/Users/Mac/Documents/Runing/Classes/Player.h
+c000000004C7112510000000000000125
+t1282478673
+s293
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"RuningAppDelegate.h"
+
+N/Users/Mac/Documents/Runing/Classes/Player.m
+c000000004C7FD23C0000000000001EDB
+t1283445308
+s7899
+i"Player.h"
+i"Game.h"
+i"Menu.h"
+
+N/Users/Mac/Documents/Runing/Classes/PlayerSelect.h
+c000000004C640B0D000000000000029F
+t1281624845
+s671
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/Runing/Classes/PlayerSelect.m
+c000000004C640C390000000000001329
+t1281625145
+s4905
+i"PlayerSelect.h"
+
+N/Users/Mac/Documents/Runing/Classes/PlayerSelect.xib
+c000000004C6407550000000000001E93
+t1281623893
+s7827
+
+N/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.h
+c000000004C70B3D30000000000000199
+t1282454483
+s409
+i"cocos2d.h"
+
+N/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m
+c000000004C712CC60000000000000B50
+t1282485446
+s2896
+i"RuningAppDelegate.h"
+i"Game.h"
+i"Main.h"
+i"Menu.h"
+
+N/Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.h
+c000000004BF8186300000000000002AB
+t1274550371
+s683
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.m
+c000000004C640EAD000000000000170A
+t1281625773
+s5898
+i"ScrollViewWithPagingViewController.h"
+i"MyViewController.h"
+
+N/Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.xib
+c000000004C640CBD0000000000001EF0
+t1281625277
+s7920
+
+N/Users/Mac/Documents/Runing/Default.png
+c000000004C63F6A40000000000003E01
+t1281619620
+s15873
+
+N/Users/Mac/Documents/Runing/Resources/SQL.sqlite
+c0000000048FFE6790000000000001000
+t1224730233
+s4096
+
+N/Users/Mac/Documents/Runing/Resources/fps_images.png
+c000000004C63F6A2000000000000183B
+t1281619618
+s6203
+
+N/Users/Mac/Documents/Runing/Resources/mySettings.plist
+c000000004C63F6A20000000000000116
+t1281619618
+s278
+
+N/Users/Mac/Documents/Runing/Resources/putoo.sqlite
+c000000004C70E26E0000000000000800
+t1282466414
+s2048
+
+N/Users/Mac/Documents/Runing/Runing_Prefix.pch
+c000000004C63F6A400000000000000AF
+t1281619620
+s175
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/Runing/Sheep.M4A
+c000000004C63F6A40000000000003C54
+t1281619620
+s15444
+
+N/Users/Mac/Documents/Runing/again_button.png
+c000000004C63F6A40000000000001329
+t1281619620
+s4905
+
+N/Users/Mac/Documents/Runing/ajax-loader.gif
+c000000004C70ADA00000000000000F6F
+t1282452896
+s3951
+
+N/Users/Mac/Documents/Runing/banana.png
+c000000004C675E990000000000000A52
+t1281842841
+s2642
+
+N/Users/Mac/Documents/Runing/bitmapFont.fnt
+c000000004C63F6A400000000000005ED
+t1281619620
+s1517
+
+N/Users/Mac/Documents/Runing/bitmapFont.png
+c000000004C63F6A40000000000000E04
+t1281619620
+s3588
+
+N/Users/Mac/Documents/Runing/black_sheep.png
+c000000004C63F6A40000000000000943
+t1281619620
+s2371
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app
+t1291526074
+s2414
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app.dSYM
+t1291526074
+s102
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Default.png
+t1283056266
+s15873
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Description.nib
+t1281624983
+s1198
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Info.plist
+t1291526071
+s624
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/MyViewController.nib
+t1283056266
+s1971
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/PkgInfo
+t1291526071
+s8
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/PlayerSelect.nib
+t1281624983
+s931
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Runing
+t1291526074
+s1324832
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/SQL.sqlite
+t1282406764
+s4096
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/ScrollViewWithPagingViewController.nib
+t1283056266
+s1643
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Sheep.M4A
+t1283056265
+s15444
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/again_button.png
+t1283056266
+s4905
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/ajax-loader.gif
+t1283056266
+s3951
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/banana.png
+t1283056266
+s2642
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/bitmapFont.fnt
+t1283056265
+s1517
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/bitmapFont.png
+t1283056265
+s3588
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/black_sheep.png
+t1283056265
+s2371
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/cat.M4A
+t1283056266
+s8541
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/cat_new.png
+t1283056266
+s5072
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/changePlayerButton.png
+t1283056265
+s2989
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/chiken.png
+t1283056265
+s3877
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/crab.png
+t1283056266
+s5268
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/data.sqlite
+t1282455803
+s6144
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/dog.png
+t1283056265
+s4196
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/duck.png
+t1283056265
+s4719
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/elephant.png
+t1283056266
+s5239
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/eye.png
+t1283056266
+s6489
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/fps_images.png
+t1283056265
+s6203
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/goose.png
+t1283056265
+s5267
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/icon.png
+t1283056265
+s4856
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/key_question.png
+t1283056265
+s3984
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/menu_button.png
+t1283056266
+s4722
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/mouse.png
+t1283056265
+s5351
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/mushroom.png
+t1283056266
+s5691
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/mySettings.plist
+t1283056265
+s80
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/pause.png
+t1283056266
+s3025
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/pig.png
+t1283056266
+s1627
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/play.png
+t1283056266
+s3220
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/playAgainButton.png
+t1283056265
+s4294
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/player_1.png
+t1283056266
+s25374
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/player_2.png
+t1283056266
+s49744
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/player_3.png
+t1283056266
+s33377
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/player_4.png
+t1283056266
+s30729
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/player_backgroup.png
+t1283056266
+s3148
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/player_select_bg.png
+t1283056265
+s106065
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/putoo.sqlite
+t1283056266
+s2048
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/rabbit.png
+t1283056265
+s5326
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/redneck.png
+t1283056265
+s5649
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/redneck_s_wife.png
+t1283056265
+s5130
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/sheep.png
+t1283056265
+s4856
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/short_sheep.M4A
+t1283056266
+s7189
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/snail.png
+t1283056266
+s5336
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/snake.png
+t1283056266
+s3188
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/sprites.png
+t1283056265
+s106303
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/sprites1.png
+t2
+s0
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/sprites10.png
+t1283056265
+s146218
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/sprites11.png
+t1283056266
+s145542
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/sprites2.png
+t1283056265
+s195668
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/sprites3.png
+t1283056265
+s176928
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/sprites4.png
+t1283056265
+s146841
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/sprites5.png
+t1283056265
+s47179
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/sprites6.png
+t1283056265
+s47172
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/sprites7.png
+t1283056265
+s144868
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/sprites8.png
+t1283056265
+s146016
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/sprites9.png
+t1283056265
+s146661
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/start_game.png
+t1283056265
+s69535
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/step1.M4A
+t1283056266
+s245263
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/step2_map.png
+t1283056266
+s9776
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/step3_map.png
+t1283056266
+s12004
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/step4_map.png
+t1283056266
+s8023
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/step5_map.png
+t1283056266
+s8483
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/step6_map.png
+t1283056266
+s9421
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/step7_map.png
+t1283056266
+s7490
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/step8_map.png
+t1283056266
+s27058
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/universe_map.png
+t1283056266
+s86029
+
+N/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/libcocos2d libraries.a
+c000000004CFB1FB70000000000372190
+t1291526071
+s3613072
+
+N/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Coffee.o
+t2
+s0
+
+N/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Description.o
+t1281625049
+s39448
+
+N/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Game.o
+t1291526072
+s95856
+
+N/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Highscores.o
+t1291526072
+s84248
+
+N/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Main-591A58E3077D1916.o
+t1291526072
+s28296
+
+N/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Menu.o
+t1291526072
+s96248
+
+N/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/MyViewController.o
+t1291526073
+s39628
+
+N/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Player.o
+t1291526073
+s69780
+
+N/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/PlayerSelect.o
+t2
+s0
+
+N/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Runing.LinkFileList
+c000000004C79E2890000000000000436
+t1283056265
+s1078
+
+N/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/RuningAppDelegate.o
+t1291526072
+s62336
+
+N/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/ScrollViewWithPagingViewController.o
+t1291526073
+s50180
+
+N/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/main-B9843B6026D6EFA4.o
+t1291526072
+s6400
+
+N/Users/Mac/Documents/Runing/cat.M4A
+c000000004C63F6A4000000000000215D
+t1281619620
+s8541
+
+N/Users/Mac/Documents/Runing/cat_new.png
+c000000004C63F6A400000000000013D0
+t1281619620
+s5072
+
+N/Users/Mac/Documents/Runing/changePlayerButton.png
+c000000004C63F6A40000000000000BAD
+t1281619620
+s2989
+
+N/Users/Mac/Documents/Runing/chiken.png
+c000000004C63F6A40000000000000F25
+t1281619620
+s3877
+
+N/Users/Mac/Documents/Runing/crab.png
+c000000004C6D333F0000000000001494
+t1282224959
+s5268
+
+N/Users/Mac/Documents/Runing/data.sqlite
+c000000004C6FF8D60000000000001800
+t1282406614
+s6144
+
+N/Users/Mac/Documents/Runing/dog.png
+c000000004C63F6A40000000000001064
+t1281619620
+s4196
+
+N/Users/Mac/Documents/Runing/duck.png
+c000000004C6D46BF000000000000126F
+t1282229951
+s4719
+
+N/Users/Mac/Documents/Runing/elephant.png
+c000000004C6A8C260000000000001477
+t1282051110
+s5239
+
+N/Users/Mac/Documents/Runing/eye.png
+c000000004C63F6A40000000000001959
+t1281619620
+s6489
+
+N/Users/Mac/Documents/Runing/goose.png
+c000000004C63F6A40000000000001493
+t1281619620
+s5267
+
+N/Users/Mac/Documents/Runing/icon.png
+c000000004C63F6A400000000000012F8
+t1281619620
+s4856
+
+N/Users/Mac/Documents/Runing/key_question.png
+c000000004C63F6A40000000000000F90
+t1281619620
+s3984
+
+N/Users/Mac/Documents/Runing/libs/CocosDenshion/CDAudioManager.h
+c000000004C63F68D000000000000229C
+t1281619597
+s8860
+i"CocosDenshion.h"
+i<AVFoundation/AVFoundation.h>
+
+N/Users/Mac/Documents/Runing/libs/CocosDenshion/CDConfig.h
+c000000004C63F68D0000000000000A17
+t1281619597
+s2583
+
+N/Users/Mac/Documents/Runing/libs/CocosDenshion/CocosDenshion.h
+c000000004C63F68D00000000000020A0
+t1281619597
+s8352
+i<UIKit/UIKit.h>
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i<AudioToolbox/AudioToolbox.h>
+i"CDConfig.h"
+
+N/Users/Mac/Documents/Runing/libs/CocosDenshion/SimpleAudioEngine.h
+c000000004C63F68D0000000000000B07
+t1281619597
+s2823
+i"CDAudioManager.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCAction.h
+c000000004C63F68D0000000000001325
+t1281619597
+s4901
+i<UIKit/UIKit.h>
+i<sys/time.h>
+i"ccTypes.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCActionManager.h
+c000000004C63F68D0000000000000C0E
+t1281619597
+s3086
+i"CCAction.h"
+i"Support/ccArray.h"
+i"Support/ccHashSet.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCAtlasNode.h
+c000000004C63F68D0000000000000912
+t1281619597
+s2322
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCBitmapFontAtlas.h
+c000000004C63F68D0000000000001009
+t1281619597
+s4105
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccHashSet.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCBlockSupport.h
+c000000004C63F68D0000000000000430
+t1281619597
+s1072
+i<Foundation/Foundation.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCCamera.h
+c000000004C63F68D0000000000000815
+t1281619597
+s2069
+i"CCNode.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCCameraAction.h
+c000000004C63F68D0000000000000676
+t1281619597
+s1654
+i"CCIntervalAction.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCCompatibility.h
+c000000004C63F68D0000000000003A7C
+t1281619597
+s14972
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCConfiguration.h
+c000000004C63F68D0000000000000680
+t1281619597
+s1664
+i<OpenGLES/ES1/gl.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCDirector.h
+c000000004C63F68D00000000000035F1
+t1281619597
+s13809
+i"ccConfig.h"
+i"ccTypes.h"
+i"Support/EAGLView.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCDrawingPrimitives.h
+c000000004C63F68D00000000000007E2
+t1281619597
+s2018
+i<CoreGraphics/CGGeometry.h>
+i<objc/objc.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCEaseAction.h
+c000000004C63F68D0000000000001338
+t1281619597
+s4920
+i"CCIntervalAction.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCGrabber.h
+c000000004C63F68D00000000000002C0
+t1281619597
+s704
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCGrid.h
+c000000004C63F68D0000000000000B16
+t1281619597
+s2838
+i<UIKit/UIKit.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCGrid3DAction.h
+c000000004C63F68D00000000000016A5
+t1281619597
+s5797
+i"CCGridAction.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCGridAction.h
+c000000004C63F68D000000000000116D
+t1281619597
+s4461
+i<UIKit/UIKit.h>
+i"CCIntervalAction.h"
+i"CCInstantAction.h"
+i"CCGrid.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCInstantAction.h
+c000000004C63F68D0000000000000DD5
+t1281619597
+s3541
+i<UIKit/UIKit.h>
+i"CCAction.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCIntervalAction.h
+c000000004C63F68D0000000000002F31
+t1281619597
+s12081
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCLabel.h
+c000000004C63F68D00000000000006E7
+t1281619597
+s1767
+i"CCTexture2D.h"
+i"CCSprite.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCLabelAtlas.h
+c000000004C63F68D0000000000000653
+t1281619597
+s1619
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCLayer.h
+c000000004C63F68D0000000000001063
+t1281619597
+s4195
+i<UIKit/UIKit.h>
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCTouchDelegateProtocol.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCMenu.h
+c000000004C63F68D00000000000007B3
+t1281619597
+s1971
+i<UIKit/UIKit.h>
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCMenuItem.h
+c000000004C63F68D0000000000002EC1
+t1281619597
+s11969
+i"CCBlockSupport.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCMotionStreak.h
+c000000004C63F68D00000000000007F3
+t1281619597
+s2035
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCNode.h
+c000000004C63F68D0000000000003594
+t1281619597
+s13716
+i<OpenGLES/ES1/gl.h>
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCPVRTexture.h
+c000000004C63F68D0000000000000CA5
+t1281619597
+s3237
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCPageTurn3DAction.h
+c000000004C63F68D000000000000030A
+t1281619597
+s778
+i"CCGrid3DAction.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCPageTurnTransition.h
+c000000004C63F68D00000000000005BA
+t1281619597
+s1466
+i"CCTransition.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCParallaxNode.h
+c000000004C63F68D000000000000041B
+t1281619597
+s1051
+i"CCNode.h"
+i"Support/ccArray.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCParticleExamples.h
+c000000004C63F68D0000000000000591
+t1281619597
+s1425
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCParticleSystem.h
+c000000004C63F68D00000000000021B8
+t1281619597
+s8632
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCPointParticleSystem.h
+c000000004C63F68D00000000000003B4
+t1281619597
+s948
+i"CCParticleSystem.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCProgressTimer.h
+c000000004C63F68D000000000000080F
+t1281619597
+s2063
+i<Foundation/Foundation.h>
+i"CCSprite.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCProgressTimerActions.h
+c000000004C63F68D0000000000000553
+t1281619597
+s1363
+i<Foundation/Foundation.h>
+i"CCProgressTimer.h"
+i"CCIntervalAction.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCPropertyAction.h
+c000000004C63F68D0000000000000607
+t1281619597
+s1543
+i<Foundation/Foundation.h>
+i"CCIntervalAction.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCProtocols.h
+c000000004C63F68D0000000000000AC3
+t1281619597
+s2755
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCQuadParticleSystem.h
+c000000004C63F68D000000000000045E
+t1281619597
+s1118
+i"CCParticleSystem.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCRadialTransition.h
+c000000004C63F68D00000000000002B8
+t1281619597
+s696
+i"CCTransition.h"
+i"CCProgressTimer.h"
+i"CCProgressTimerActions.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCRenderTexture.h
+c000000004C63F68D000000000000072F
+t1281619597
+s1839
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCRibbon.h
+c000000004C63F68D0000000000000C96
+t1281619597
+s3222
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i<OpenGLES/ES1/gl.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCScene.h
+c000000004C63F68D0000000000000356
+t1281619597
+s854
+i<UIKit/UIKit.h>
+i"CCNode.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCScheduler.h
+c000000004C63F68D0000000000000A9F
+t1281619597
+s2719
+i<UIKit/UIKit.h>
+i"ccTypes.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCSprite.h
+c000000004C63F68D0000000000002B45
+t1281619597
+s11077
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCSpriteFrame.h
+c000000004C63F68D0000000000000EE7
+t1281619597
+s3815
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCSpriteFrameCache.h
+c000000004C63F68D0000000000000CC0
+t1281619597
+s3264
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCSpriteSheet.h
+c000000004C63F68D000000000000145F
+t1281619597
+s5215
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+i"Support/ccArray.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCTMXLayer.h
+c000000004C63F68D00000000000014D2
+t1281619597
+s5330
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCTMXObjectGroup.h
+c000000004C63F68D00000000000005CC
+t1281619597
+s1484
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCTMXTiledMap.h
+c000000004C63F68D0000000000001181
+t1281619597
+s4481
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCTMXXMLParser.h
+c000000004C63F68D00000000000012A4
+t1281619597
+s4772
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCTexture2D.h
+c000000004C63F68D0000000000002609
+t1281619597
+s9737
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCTextureAtlas.h
+c000000004C63F68D000000000000113D
+t1281619597
+s4413
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCTextureCache.h
+c000000004C63F68D0000000000000EE7
+t1281619597
+s3815
+i<Foundation/Foundation.h>
+i"CCTexture2D.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCTileMapAtlas.h
+c000000004C63F68D000000000000085A
+t1281619597
+s2138
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCTiledGridAction.h
+c000000004C63F68D00000000000016DC
+t1281619597
+s5852
+i"CCGridAction.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCTouchDelegateProtocol.h
+c000000004C63F68D000000000000078B
+t1281619597
+s1931
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCTouchDispatcher.h
+c000000004C63F68D0000000000000C8C
+t1281619597
+s3212
+i"CCTouchDelegateProtocol.h"
+i"Support/EAGLView.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCTouchHandler.h
+c000000004C63F68D0000000000000886
+t1281619597
+s2182
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/CCTransition.h
+c000000004C63F68D0000000000001DF5
+t1281619597
+s7669
+i"CCScene.h"
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/Support/CCFileUtils.h
+c000000004C63F68C0000000000000251
+t1281619596
+s593
+i<Foundation/Foundation.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/Support/CCProfiling.h
+c000000004C63F68C00000000000002DC
+t1281619596
+s732
+i<Foundation/Foundation.h>
+i<sys/time.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/Support/CGPointExtension.h
+c000000004C63F68C0000000000001E13
+t1281619596
+s7699
+i<CoreGraphics/CGGeometry.h>
+i<math.h>
+i<objc/objc.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/Support/EAGLView.h
+c000000004C63F68C0000000000001781
+t1281619596
+s6017
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004C63F68C00000000000011A7
+t1281619596
+s4519
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/Support/TGAlib.h
+c000000004C63F68C0000000000000444
+t1281619596
+s1092
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/Support/ccArray.h
+c000000004C63F68C0000000000002E36
+t1281619596
+s11830
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/Support/ccHashSet.h
+c000000004C63F68C00000000000011BE
+t1281619596
+s4542
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/ccConfig.h
+c000000004C63F68D0000000000001159
+t1281619597
+s4441
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/ccMacros.h
+c000000004C63F68D0000000000000A61
+t1281619597
+s2657
+i<math.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/ccTypes.h
+c000000004C63F68D000000000000131E
+t1281619597
+s4894
+i<objc/objc.h>
+i<CoreGraphics/CGGeometry.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/Mac/Documents/Runing/libs/cocos2d/cocos2d.h
+c000000004C63F68D0000000000000B14
+t1281619597
+s2836
+i"ccConfig.h"
+i"CCBlockSupport.h"
+i"CCAction.h"
+i"CCCamera.h"
+i"CCCameraAction.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCTouchDispatcher.h"
+i"CCTouchDelegateProtocol.h"
+i"CCInstantAction.h"
+i"CCIntervalAction.h"
+i"CCEaseAction.h"
+i"CCLabel.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCParticleSystem.h"
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+i"CCParticleExamples.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteFrameCache.h"
+i"CCTextureCache.h"
+i"CCTransition.h"
+i"CCTextureAtlas.h"
+i"CCLabelAtlas.h"
+i"CCAtlasNode.h"
+i"CCEaseAction.h"
+i"CCTiledGridAction.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCGrid3DAction.h"
+i"CCGridAction.h"
+i"CCBitmapFontAtlas.h"
+i"CCParallaxNode.h"
+i"CCActionManager.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCPageTurn3DAction.h"
+i"CCPageTurnTransition.h"
+i"CCTexture2D.h"
+i"CCPVRTexture.h"
+i"CCTouchHandler.h"
+i"CCConfiguration.h"
+i"CCRadialTransition.h"
+i"CCProgressTimerActions.h"
+i"CCPropertyAction.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Support/OpenGL_Internal.h"
+i"Support/EAGLView.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccArray.h"
+i"Support/CCProfiling.h"
+i"CCCompatibility.h"
+
+N/Users/Mac/Documents/Runing/main.m
+c000000004C63F6A40000000000000157
+t1281619620
+s343
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/Runing/menu_button.png
+c000000004C63F6A40000000000001272
+t1281619620
+s4722
+
+N/Users/Mac/Documents/Runing/mouse.png
+c000000004C63F6A400000000000014E7
+t1281619620
+s5351
+
+N/Users/Mac/Documents/Runing/mushroom.png
+c000000004C6C1248000000000000163B
+t1282150984
+s5691
+
+N/Users/Mac/Documents/Runing/pause.png
+c000000004C63F6A40000000000000BD1
+t1281619620
+s3025
+
+N/Users/Mac/Documents/Runing/pig.png
+c000000004C676F84000000000000065B
+t1281847172
+s1627
+
+N/Users/Mac/Documents/Runing/play.png
+c000000004C63F6A40000000000000C94
+t1281619620
+s3220
+
+N/Users/Mac/Documents/Runing/playAgainButton.png
+c000000004C63F6A400000000000010C6
+t1281619620
+s4294
+
+N/Users/Mac/Documents/Runing/player_1.png
+c000000004C63FDF7000000000000631E
+t1281621495
+s25374
+
+N/Users/Mac/Documents/Runing/player_2.png
+c000000004C63FE55000000000000C250
+t1281621589
+s49744
+
+N/Users/Mac/Documents/Runing/player_3.png
+c000000004C63FE940000000000008261
+t1281621652
+s33377
+
+N/Users/Mac/Documents/Runing/player_4.png
+c000000004C63FF2F0000000000007809
+t1281621807
+s30729
+
+N/Users/Mac/Documents/Runing/player_backgroup.png
+c000000004C63F6A40000000000000C4C
+t1281619620
+s3148
+
+N/Users/Mac/Documents/Runing/player_select_bg.png
+c000000004C63F6A40000000000019E51
+t1281619620
+s106065
+
+N/Users/Mac/Documents/Runing/rabbit.png
+c000000004C63F6A400000000000014CE
+t1281619620
+s5326
+
+N/Users/Mac/Documents/Runing/redneck.png
+c000000004C63F6A40000000000001611
+t1281619620
+s5649
+
+N/Users/Mac/Documents/Runing/redneck_s_wife.png
+c000000004C63F6A4000000000000140A
+t1281619620
+s5130
+
+N/Users/Mac/Documents/Runing/sheep.png
+c000000004C63F6A400000000000012F8
+t1281619620
+s4856
+
+N/Users/Mac/Documents/Runing/short_sheep.M4A
+c000000004C63F6A40000000000001C15
+t1281619620
+s7189
+
+N/Users/Mac/Documents/Runing/snail.png
+c000000004C6750FF00000000000014D8
+t1281839359
+s5336
+
+N/Users/Mac/Documents/Runing/snake.png
+c000000004C63F6A40000000000000C74
+t1281619620
+s3188
+
+N/Users/Mac/Documents/Runing/sprites.png
+c000000004C63F6A40000000000019F3F
+t1281619620
+s106303
+
+N/Users/Mac/Documents/Runing/sprites1.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Mac/Documents/Runing/sprites10.png
+c000000004C6D33FD0000000000023B2A
+t1282225149
+s146218
+
+N/Users/Mac/Documents/Runing/sprites11.png
+c000000004C6D474E0000000000023886
+t1282230094
+s145542
+
+N/Users/Mac/Documents/Runing/sprites2.png
+c000000004C63F6A4000000000002FC54
+t1281619620
+s195668
+
+N/Users/Mac/Documents/Runing/sprites3.png
+c000000004C63F6A4000000000002B320
+t1281619620
+s176928
+
+N/Users/Mac/Documents/Runing/sprites4.png
+c000000004C63F6A40000000000023D99
+t1281619620
+s146841
+
+N/Users/Mac/Documents/Runing/sprites5.png
+c000000004C676A4B000000000000B84B
+t1281845835
+s47179
+
+N/Users/Mac/Documents/Runing/sprites6.png
+c000000004C67695D000000000000B844
+t1281845597
+s47172
+
+N/Users/Mac/Documents/Runing/sprites7.png
+c000000004C676FFD00000000000235E4
+t1281847293
+s144868
+
+N/Users/Mac/Documents/Runing/sprites8.png
+c000000004C6A8CC40000000000023A60
+t1282051268
+s146016
+
+N/Users/Mac/Documents/Runing/sprites9.png
+c000000004C6C12E80000000000023CE5
+t1282151144
+s146661
+
+N/Users/Mac/Documents/Runing/start_game.png
+c000000004C63F6A40000000000010F9F
+t1281619620
+s69535
+
+N/Users/Mac/Documents/Runing/step1.M4A
+c000000004C63F6A4000000000003BE0F
+t1281619620
+s245263
+
+N/Users/Mac/Documents/Runing/step2_map.png
+c000000004C63F6A40000000000002630
+t1281619620
+s9776
+
+N/Users/Mac/Documents/Runing/step3_map.png
+c000000004C63F6A40000000000002EE4
+t1281619620
+s12004
+
+N/Users/Mac/Documents/Runing/step4_map.png
+c000000004C63F6A40000000000001F57
+t1281619620
+s8023
+
+N/Users/Mac/Documents/Runing/step5_map.png
+c000000004C63F6A40000000000002123
+t1281619620
+s8483
+
+N/Users/Mac/Documents/Runing/step6_map.png
+c000000004C63F6A400000000000024CD
+t1281619620
+s9421
+
+N/Users/Mac/Documents/Runing/step7_map.png
+c000000004C63F6A40000000000001D42
+t1281619620
+s7490
+
+N/Users/Mac/Documents/Runing/step8_map.png
+c000000004C63F6A400000000000069B2
+t1281619620
+s27058
+
+N/Users/Mac/Documents/Runing/universe_map.png
+c000000004C63F6A4000000000001500D
+t1281619620
+s86029
+
+N/var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-akmtvgjtbganoycbvkycudcyskva/Runing_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-bwirjveyrnqzgueaygmpwxnxpdxc/Runing_Prefix.pch.gch
+t1291526072
+s15240208
+
+N/var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-dppijykinpugvkafftvjcoadheid/Runing_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-gtmrufrfbwltgidsxpsatmxuwlkh/Runing_Prefix.pch.gch
+t2
+s0
+
+NResources/Info.plist
+c000000004C63F6A20000000000000370
+t1281619618
+s880
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313218946#313218946#0(0"0(0#1#0"8612340896#0"0#
+
+CCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Coffee.o /Users/Mac/Documents/Runing/Classes/Coffee.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304077390.584939
+e304077390.648189
+r0
+xCompileC
+xbuild/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Coffee.o
+x/Users/Mac/Documents/Runing/Classes/Coffee.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:19: error: expected identifier before ';' token
+o/Users/Mac/Documents/Runing/Classes/Coffee.m: In function '+[Coffee getInitialDataToDisplay:]':
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:23: error: 'SQLAppDelegate' undeclared (first use in this function)
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:23: error: (Each undeclared identifier is reported only once
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:23: error: for each function it appears in.)
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:35: error: request for member 'coffeeName' in something not a structure or union
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:39: error: 'appDelegate' undeclared (first use in this function)
+o/Users/Mac/Documents/Runing/Classes/Coffee.m: In function '-[Coffee initWithPrimaryKey:]':
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:60: error: 'coffeeID' undeclared (first use in this function)
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:62: error: 'coffeeImage' undeclared (first use in this function)
+o/Users/Mac/Documents/Runing/Classes/Coffee.m: In function '-[Coffee addCoffee]':
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:93: error: 'coffeeName' undeclared (first use in this function)
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:94: error: 'price' undeclared (first use in this function)
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:100: error: 'coffeeID' undeclared (first use in this function)
+o/Users/Mac/Documents/Runing/Classes/Coffee.m: In function '-[Coffee hydrateDetailViewData]':
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:117: error: 'coffeeID' undeclared (first use in this function)
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:125: error: request for member 'price' in something not a structure or union
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:132: error: request for member 'coffeeImage' in something not a structure or union
+o/Users/Mac/Documents/Runing/Classes/Coffee.m: In function '-[Coffee saveAllData:]':
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:161: error: request for member 'coffeeImage' in something not a structure or union
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:166: error: expected expression before 'id'
+o/Users/Mac/Documents/Runing/Classes/Coffee.m: At top level:
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:200: warning: incomplete implementation of class 'Coffee'
+o/Users/Mac/Documents/Runing/Classes/Coffee.m:200: warning: method definition for '-saveAllData' not found
+lSLF07#2@52"Compile /Users/Mac/Documents/Runing/Classes/Coffee.m304077390#304077390#0(2465"/Users/Mac/Documents/Runing/Classes/Coffee.m:19: error: expected identifier before ';' token/Users/Mac/Documents/Runing/Classes/Coffee.m: In function '+[Coffee getInitialDataToDisplay:]':/Users/Mac/Documents/Runing/Classes/Coffee.m:23: error: 'SQLAppDelegate' undeclared (first use in this function)/Users/Mac/Documents/Runing/Classes/Coffee.m:23: error: (Each undeclared identifier is reported only once/Users/Mac/Documents/Runing/Classes/Coffee.m:23: error: for each function it appears in.)/Users/Mac/Documents/Runing/Classes/Coffee.m:35: error: request for member 'coffeeName' in something not a structure or union/Users/Mac/Documents/Runing/Classes/Coffee.m:39: error: 'appDelegate' undeclared (first use in this function)/Users/Mac/Documents/Runing/Classes/Coffee.m: In function '-[Coffee initWithPrimaryKey:]':/Users/Mac/Documents/Runing/Classes/Coffee.m:60: error: 'coffeeID' undeclared (first use in this function)/Users/Mac/Documents/Runing/Classes/Coffee.m:62: error: 'coffeeImage' undeclared (first use in this function)/Users/Mac/Documents/Runing/Classes/Coffee.m: In function '-[Coffee addCoffee]':/Users/Mac/Documents/Runing/Classes/Coffee.m:93: error: 'coffeeName' undeclared (first use in this function)/Users/Mac/Documents/Runing/Classes/Coffee.m:94: error: 'price' undeclared (first use in this function)/Users/Mac/Documents/Runing/Classes/Coffee.m:100: error: 'coffeeID' undeclared (first use in this function)/Users/Mac/Documents/Runing/Classes/Coffee.m: In function '-[Coffee hydrateDetailViewData]':/Users/Mac/Documents/Runing/Classes/Coffee.m:117: error: 'coffeeID' undeclared (first use in this function)/Users/Mac/Documents/Runing/Classes/Coffee.m:125: error: request for member 'price' in something not a structure or union/Users/Mac/Documents/Runing/Classes/Coffee.m:132: error: request for member 'coffeeImage' in something not a structure or union/Users/Mac/Documents/Runing/Classes/Coffee.m: In function '-[Coffee saveAllData:]':/Users/Mac/Documents/Runing/Classes/Coffee.m:161: error: request for member 'coffeeImage' in something not a structure or union/Users/Mac/Documents/Runing/Classes/Coffee.m:166: error: expected expression before 'id'/Users/Mac/Documents/Runing/Classes/Coffee.m: At top level:/Users/Mac/Documents/Runing/Classes/Coffee.m:200: warning: incomplete implementation of class 'Coffee'/Users/Mac/Documents/Runing/Classes/Coffee.m:200: warning: method definition for '-saveAllData' not found17(4@36"Expected identifier before ';' token304077390#0#93#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#19#0#19#0#19"expected * before *0(4@56"'SQLAppDelegate' undeclared (first use in this function)304077390#189#113#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#23#0#23#0#43"'*' undeclared (first use in this function)0(4@69"Request for member 'coffeeName' in something not a structure or union304077390#498#126#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#35#0#35#0#0"0(4@53"'appDelegate' undeclared (first use in this function)304077390#624#110#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#39#0#39#0#43"'*' undeclared (first use in this function)0(4@50"'coffeeID' undeclared (first use in this function)304077390#825#107#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#60#0#60#0#43"'*' undeclared (first use in this function)0(4@53"'coffeeImage' undeclared (first use in this function)304077390#932#110#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#62#0#62#0#43"'*' undeclared (first use in this function)0(4@52"'coffeeName' undeclared (first use in this function)304077390#1123#109#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#93#0#93#0#43"'*' undeclared (first use in this function)0(4@47"'price' undeclared (first use in this function)304077390#1232#104#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#94#0#94#0#43"'*' undeclared (first use in this function)0(4@50"'coffeeID' undeclared (first use in this function)304077390#1336#108#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#100#0#100#0#43"'*' undeclared (first use in this function)0(4@50"'coffeeID' undeclared (first use in this function)304077390#1537#108#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#117#0#117#0#43"'*' undeclared (first use in this function)0(4@64"Request for member 'price' in something not a structure or union304077390#1645#122#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#125#0#125#0#0"0(4@70"Request for member 'coffeeImage' in something not a structure or union304077390#1767#128#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#132#0#132#0#0"0(4@70"Request for member 'coffeeImage' in something not a structure or union304077390#1979#128#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#161#0#161#0#0"0(4@31"Expected expression before 'id'304077390#2107#89#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#166#0#166#0#19"expected * before *0(23@13"At top level:304077390#2196#60#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#0#0#0#0#0"0(22@43"Incomplete implementation of class 'Coffee'304077390#2256#103#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#200#0#200#0#38"incomplete implementation of class '*'0(22@46"Method definition for '-saveAllData' not found304077390#2359#106#0(6@44"/Users/Mac/Documents/Runing/Classes/Coffee.m304077389#200#0#200#0#35"method definition for '*' not found0(0#0#44"/Users/Mac/Documents/Runing/Classes/Coffee.m8607350848#1796"    cd /Users/Mac/Documents/Runing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-generated-files.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-own-target-headers.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-all-target-headers.hmap -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-project-headers.hmap -Wall -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -I/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/include -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources/i386 -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources -include /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-dppijykinpugvkafftvjcoadheid/Runing_Prefix.pch -c /Users/Mac/Documents/Runing/Classes/Coffee.m -o /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Coffee.o1#
+
+CCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Description.o /Users/Mac/Documents/Runing/Classes/Description.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303317849.773205
+e303317849.864300
+r1
+xCompileC
+xbuild/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Description.o
+x/Users/Mac/Documents/Runing/Classes/Description.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mac/Documents/Runing/Classes/Description.m: In function '-[Description initWithPageNumber:]':
+o/Users/Mac/Documents/Runing/Classes/Description.m:31: warning: suggest parentheses around assignment used as truth value
+lSLF07#2@57"Compile /Users/Mac/Documents/Runing/Classes/Description.m303317849#303317849#0(222"/Users/Mac/Documents/Runing/Classes/Description.m: In function '-[Description initWithPageNumber:]':/Users/Mac/Documents/Runing/Classes/Description.m:31: warning: suggest parentheses around assignment used as truth value1(22@57"Suggest parentheses around assignment used as truth value303317849#101#121#0(6@49"/Users/Mac/Documents/Runing/Classes/Description.m303317268#31#0#31#0#0"0(0#0#49"/Users/Mac/Documents/Runing/Classes/Description.m8628498112#1806"    cd /Users/Mac/Documents/Runing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-generated-files.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-own-target-headers.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-all-target-headers.hmap -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-project-headers.hmap -Wall -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -I/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/include -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources/i386 -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources -include /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-dppijykinpugvkafftvjcoadheid/Runing_Prefix.pch -c /Users/Mac/Documents/Runing/Classes/Description.m -o /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Description.o0#
+
+CCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Game.o /Users/Mac/Documents/Runing/Classes/Game.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313218872.624399
+e313218872.936563
+r1
+xCompileC
+xbuild/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Game.o
+x/Users/Mac/Documents/Runing/Classes/Game.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+o/Users/Mac/Documents/Runing/Classes/Game.m: In function '-[Game startGame]':
+o/Users/Mac/Documents/Runing/Classes/Game.m:143: warning: 'Game' may not respond to '-readPlist:'
+o/Users/Mac/Documents/Runing/Classes/Game.m:143: warning: (Messages without a matching method signature
+o/Users/Mac/Documents/Runing/Classes/Game.m:143: warning: will be assumed to return 'id' and accept
+o/Users/Mac/Documents/Runing/Classes/Game.m:143: warning: '...' as arguments.)
+o/Users/Mac/Documents/Runing/Classes/Game.m: In function '-[Game step:]':
+o/Users/Mac/Documents/Runing/Classes/Game.m:351: warning: 'Game' may not respond to '-action_music'
+o/Users/Mac/Documents/Runing/Classes/Game.m:352: warning: 'Game' may not respond to '-action_music'
+o/Users/Mac/Documents/Runing/Classes/Game.m:353: warning: 'Game' may not respond to '-action_music'
+o/Users/Mac/Documents/Runing/Classes/Game.m:354: warning: 'Game' may not respond to '-action_music'
+o/Users/Mac/Documents/Runing/Classes/Game.m:355: warning: 'Game' may not respond to '-action_music'
+o/Users/Mac/Documents/Runing/Classes/Game.m:356: warning: 'Game' may not respond to '-action_music'
+o/Users/Mac/Documents/Runing/Classes/Game.m:357: warning: 'Game' may not respond to '-action_music'
+o/Users/Mac/Documents/Runing/Classes/Game.m:358: warning: 'Game' may not respond to '-action_music'
+o/Users/Mac/Documents/Runing/Classes/Game.m:376: warning: statement with no effect
+o/Users/Mac/Documents/Runing/Classes/Game.m:393: warning: 'Game' may not respond to '-random_remove:sptag:'
+o/Users/Mac/Documents/Runing/Classes/Game.m:412: warning: statement with no effect
+o/Users/Mac/Documents/Runing/Classes/Game.m:441: warning: statement with no effect
+lSLF07#2@50"Compile /Users/Mac/Documents/Runing/Classes/Game.m313218872#313218872#0(1815"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition/Users/Mac/Documents/Runing/Classes/Game.m: In function '-[Game startGame]':/Users/Mac/Documents/Runing/Classes/Game.m:143: warning: 'Game' may not respond to '-readPlist:'/Users/Mac/Documents/Runing/Classes/Game.m:143: warning: (Messages without a matching method signature/Users/Mac/Documents/Runing/Classes/Game.m:143: warning: will be assumed to return 'id' and accept/Users/Mac/Documents/Runing/Classes/Game.m:143: warning: '...' as arguments.)/Users/Mac/Documents/Runing/Classes/Game.m: In function '-[Game step:]':/Users/Mac/Documents/Runing/Classes/Game.m:351: warning: 'Game' may not respond to '-action_music'/Users/Mac/Documents/Runing/Classes/Game.m:352: warning: 'Game' may not respond to '-action_music'/Users/Mac/Documents/Runing/Classes/Game.m:353: warning: 'Game' may not respond to '-action_music'/Users/Mac/Documents/Runing/Classes/Game.m:354: warning: 'Game' may not respond to '-action_music'/Users/Mac/Documents/Runing/Classes/Game.m:355: warning: 'Game' may not respond to '-action_music'/Users/Mac/Documents/Runing/Classes/Game.m:356: warning: 'Game' may not respond to '-action_music'/Users/Mac/Documents/Runing/Classes/Game.m:357: warning: 'Game' may not respond to '-action_music'/Users/Mac/Documents/Runing/Classes/Game.m:358: warning: 'Game' may not respond to '-action_music'/Users/Mac/Documents/Runing/Classes/Game.m:376: warning: statement with no effect/Users/Mac/Documents/Runing/Classes/Game.m:393: warning: 'Game' may not respond to '-random_remove:sptag:'/Users/Mac/Documents/Runing/Classes/Game.m:412: warning: statement with no effect/Users/Mac/Documents/Runing/Classes/Game.m:441: warning: statement with no effect14(22@39"'Game' may not respond to '-readPlist:'313218872#220#97#0(6@42"/Users/Mac/Documents/Runing/Classes/Game.m304749037#143#0#143#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)313218872#317#103#0(6@42"/Users/Mac/Documents/Runing/Classes/Game.m304749037#143#0#143#0#0"0(22@41"'Game' may not respond to '-action_music'313218872#670#99#0(6@42"/Users/Mac/Documents/Runing/Classes/Game.m304749037#351#0#351#0#26"'*' may not respond to '*'0(22@41"'Game' may not respond to '-action_music'313218872#769#99#0(6@42"/Users/Mac/Documents/Runing/Classes/Game.m304749037#352#0#352#0#26"'*' may not respond to '*'0(22@41"'Game' may not respond to '-action_music'313218872#868#99#0(6@42"/Users/Mac/Documents/Runing/Classes/Game.m304749037#353#0#353#0#26"'*' may not respond to '*'0(22@41"'Game' may not respond to '-action_music'313218872#967#99#0(6@42"/Users/Mac/Documents/Runing/Classes/Game.m304749037#354#0#354#0#26"'*' may not respond to '*'0(22@41"'Game' may not respond to '-action_music'313218872#1066#99#0(6@42"/Users/Mac/Documents/Runing/Classes/Game.m304749037#355#0#355#0#26"'*' may not respond to '*'0(22@41"'Game' may not respond to '-action_music'313218872#1165#99#0(6@42"/Users/Mac/Documents/Runing/Classes/Game.m304749037#356#0#356#0#26"'*' may not respond to '*'0(22@41"'Game' may not respond to '-action_music'313218872#1264#99#0(6@42"/Users/Mac/Documents/Runing/Classes/Game.m304749037#357#0#357#0#26"'*' may not respond to '*'0(22@41"'Game' may not respond to '-action_music'313218872#1363#99#0(6@42"/Users/Mac/Documents/Runing/Classes/Game.m304749037#358#0#358#0#26"'*' may not respond to '*'0(22@24"Statement with no effect313218872#1462#82#0(6@42"/Users/Mac/Documents/Runing/Classes/Game.m304749037#376#0#376#0#0"0(22@49"'Game' may not respond to '-random_remove:sptag:'313218872#1544#107#0(6@42"/Users/Mac/Documents/Runing/Classes/Game.m304749037#393#0#393#0#26"'*' may not respond to '*'0(22@24"Statement with no effect313218872#1651#82#0(6@42"/Users/Mac/Documents/Runing/Classes/Game.m304749037#412#0#412#0#0"0(22@24"Statement with no effect313218872#1733#82#0(6@42"/Users/Mac/Documents/Runing/Classes/Game.m304749037#441#0#441#0#0"0(0#0#42"/Users/Mac/Documents/Runing/Classes/Game.m8608283104#1846"    cd /Users/Mac/Documents/Runing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-generated-files.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-own-target-headers.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-all-target-headers.hmap -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-project-headers.hmap -Wall -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -I/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/include -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources/i386 -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources -include /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-bwirjveyrnqzgueaygmpwxnxpdxc/Runing_Prefix.pch -c /Users/Mac/Documents/Runing/Classes/Game.m -o /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Game.o0#
+
+CCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Highscores.o /Users/Mac/Documents/Runing/Classes/Highscores.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313218872.486733
+e313218872.717587
+r1
+xCompileC
+xbuild/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Highscores.o
+x/Users/Mac/Documents/Runing/Classes/Highscores.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+o/Users/Mac/Documents/Runing/Classes/Highscores.m: In function '-[Highscores changePlayerDone]':
+o/Users/Mac/Documents/Runing/Classes/Highscores.m:291: warning: 'CCFadeTransition' may not respond to '+transitionWithDuration:scene:withColorRGB:'
+o/Users/Mac/Documents/Runing/Classes/Highscores.m:291: warning: (Messages without a matching method signature
+o/Users/Mac/Documents/Runing/Classes/Highscores.m:291: warning: will be assumed to return 'id' and accept
+o/Users/Mac/Documents/Runing/Classes/Highscores.m:291: warning: '...' as arguments.)
+lSLF07#2@56"Compile /Users/Mac/Documents/Runing/Classes/Highscores.m313218872#313218872#0(684"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition/Users/Mac/Documents/Runing/Classes/Highscores.m: In function '-[Highscores changePlayerDone]':/Users/Mac/Documents/Runing/Classes/Highscores.m:291: warning: 'CCFadeTransition' may not respond to '+transitionWithDuration:scene:withColorRGB:'/Users/Mac/Documents/Runing/Classes/Highscores.m:291: warning: (Messages without a matching method signature/Users/Mac/Documents/Runing/Classes/Highscores.m:291: warning: will be assumed to return 'id' and accept/Users/Mac/Documents/Runing/Classes/Highscores.m:291: warning: '...' as arguments.)2(22@83"'CCFadeTransition' may not respond to '+transitionWithDuration:scene:withColorRGB:'313218872#239#147#0(6@48"/Users/Mac/Documents/Runing/Classes/Highscores.m303312392#291#0#291#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)313218872#386#109#0(6@48"/Users/Mac/Documents/Runing/Classes/Highscores.m303312392#291#0#291#0#0"0(0#0#48"/Users/Mac/Documents/Runing/Classes/Highscores.m8608367776#1858"    cd /Users/Mac/Documents/Runing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-generated-files.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-own-target-headers.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-all-target-headers.hmap -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-project-headers.hmap -Wall -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -I/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/include -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources/i386 -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources -include /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-bwirjveyrnqzgueaygmpwxnxpdxc/Runing_Prefix.pch -c /Users/Mac/Documents/Runing/Classes/Highscores.m -o /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Highscores.o0#
+
+CCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Main-591A58E3077D1916.o /Users/Mac/Documents/Runing/Classes/Main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313218872.456428
+e313218872.624304
+r1
+xCompileC
+xbuild/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Main-591A58E3077D1916.o
+x/Users/Mac/Documents/Runing/Classes/Main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+o/Users/Mac/Documents/Runing/Classes/Main.m: In function '-[Main init]':
+o/Users/Mac/Documents/Runing/Classes/Main.m:20: warning: 'Main' may not respond to '-readPlist:'
+o/Users/Mac/Documents/Runing/Classes/Main.m:20: warning: (Messages without a matching method signature
+o/Users/Mac/Documents/Runing/Classes/Main.m:20: warning: will be assumed to return 'id' and accept
+o/Users/Mac/Documents/Runing/Classes/Main.m:20: warning: '...' as arguments.)
+o/Users/Mac/Documents/Runing/Classes/Main.m: In function '-[Main step:]':
+o/Users/Mac/Documents/Runing/Classes/Main.m:138: warning: statement with no effect
+lSLF07#2@50"Compile /Users/Mac/Documents/Runing/Classes/Main.m313218872#313218872#0(743"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition/Users/Mac/Documents/Runing/Classes/Main.m: In function '-[Main init]':/Users/Mac/Documents/Runing/Classes/Main.m:20: warning: 'Main' may not respond to '-readPlist:'/Users/Mac/Documents/Runing/Classes/Main.m:20: warning: (Messages without a matching method signature/Users/Mac/Documents/Runing/Classes/Main.m:20: warning: will be assumed to return 'id' and accept/Users/Mac/Documents/Runing/Classes/Main.m:20: warning: '...' as arguments.)/Users/Mac/Documents/Runing/Classes/Main.m: In function '-[Main step:]':/Users/Mac/Documents/Runing/Classes/Main.m:138: warning: statement with no effect3(22@39"'Main' may not respond to '-readPlist:'313218872#215#96#0(6@42"/Users/Mac/Documents/Runing/Classes/Main.m304745231#20#0#20#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)313218872#311#102#0(6@42"/Users/Mac/Documents/Runing/Classes/Main.m304745231#20#0#20#0#0"0(22@24"Statement with no effect313218872#661#82#0(6@42"/Users/Mac/Documents/Runing/Classes/Main.m304745231#138#0#138#0#0"0(0#0#42"/Users/Mac/Documents/Runing/Classes/Main.m8608579936#1863"    cd /Users/Mac/Documents/Runing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-generated-files.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-own-target-headers.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-all-target-headers.hmap -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-project-headers.hmap -Wall -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -I/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/include -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources/i386 -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources -include /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-bwirjveyrnqzgueaygmpwxnxpdxc/Runing_Prefix.pch -c /Users/Mac/Documents/Runing/Classes/Main.m -o /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Main-591A58E3077D1916.o0#
+
+CCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Menu.o /Users/Mac/Documents/Runing/Classes/Menu.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313218872.717686
+e313218873.043388
+r1
+xCompileC
+xbuild/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Menu.o
+x/Users/Mac/Documents/Runing/Classes/Menu.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+o/Users/Mac/Documents/Runing/Classes/Menu.m: In function '-[Menu init]':
+o/Users/Mac/Documents/Runing/Classes/Menu.m:45: warning: 'Menu' may not respond to '-fontColor:'
+o/Users/Mac/Documents/Runing/Classes/Menu.m:45: warning: (Messages without a matching method signature
+o/Users/Mac/Documents/Runing/Classes/Menu.m:45: warning: will be assumed to return 'id' and accept
+o/Users/Mac/Documents/Runing/Classes/Menu.m:45: warning: '...' as arguments.)
+o/Users/Mac/Documents/Runing/Classes/Menu.m:46: warning: 'Menu' may not respond to '-fontColor:'
+o/Users/Mac/Documents/Runing/Classes/Menu.m: In function '-[Menu loadPlayerXML]':
+o/Users/Mac/Documents/Runing/Classes/Menu.m:65: warning: 'Menu' may not respond to '-parseXMLFileAtURL:'
+o/Users/Mac/Documents/Runing/Classes/Menu.m: In function '-[Menu parseXMLFileAtURL:]':
+o/Users/Mac/Documents/Runing/Classes/Menu.m:76: warning: class 'Menu' does not implement the 'NSXMLParserDelegate' protocol
+o/Users/Mac/Documents/Runing/Classes/Menu.m: In function '-[Menu checkupdate:]':
+o/Users/Mac/Documents/Runing/Classes/Menu.m:159: warning: 'Menu' may not respond to '-deleteAll'
+o/Users/Mac/Documents/Runing/Classes/Menu.m:171: warning: 'Menu' may not respond to '-loadImageFromUrl:'
+o/Users/Mac/Documents/Runing/Classes/Menu.m:175: warning: 'Menu' may not respond to '-loadImageFromUrl:'
+o/Users/Mac/Documents/Runing/Classes/Menu.m:176: warning: 'Menu' may not respond to '-addData:setTitle:setMapData:setItemId:'
+o/Users/Mac/Documents/Runing/Classes/Menu.m: In function '-[Menu fontColor:]':
+o/Users/Mac/Documents/Runing/Classes/Menu.m:187: warning: local declaration of 'item' hides instance variable
+o/Users/Mac/Documents/Runing/Classes/Menu.m: In function '+[Menu getNewDBConnection]':
+o/Users/Mac/Documents/Runing/Classes/Menu.m:193: warning: unused variable 'error'
+o/Users/Mac/Documents/Runing/Classes/Menu.m:192: warning: unused variable 'fileManager'
+o/Users/Mac/Documents/Runing/Classes/Menu.m: In function '-[Menu addData:setTitle:setMapData:setItemId:]':
+o/Users/Mac/Documents/Runing/Classes/Menu.m:242: warning: local declaration of 'itemId' hides instance variable
+o/Users/Mac/Documents/Runing/Classes/Menu.m: At top level:
+o/Users/Mac/Documents/Runing/Classes/Menu.m:15: warning: 'insert_statement' defined but not used
+o/Users/Mac/Documents/Runing/Classes/Menu.m:19: warning: 'detailStmt' defined but not used
+lSLF07#2@50"Compile /Users/Mac/Documents/Runing/Classes/Menu.m313218872#313218873#0(2489"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition/Users/Mac/Documents/Runing/Classes/Menu.m: In function '-[Menu init]':/Users/Mac/Documents/Runing/Classes/Menu.m:45: warning: 'Menu' may not respond to '-fontColor:'/Users/Mac/Documents/Runing/Classes/Menu.m:45: warning: (Messages without a matching method signature/Users/Mac/Documents/Runing/Classes/Menu.m:45: warning: will be assumed to return 'id' and accept/Users/Mac/Documents/Runing/Classes/Menu.m:45: warning: '...' as arguments.)/Users/Mac/Documents/Runing/Classes/Menu.m:46: warning: 'Menu' may not respond to '-fontColor:'/Users/Mac/Documents/Runing/Classes/Menu.m: In function '-[Menu loadPlayerXML]':/Users/Mac/Documents/Runing/Classes/Menu.m:65: warning: 'Menu' may not respond to '-parseXMLFileAtURL:'/Users/Mac/Documents/Runing/Classes/Menu.m: In function '-[Menu parseXMLFileAtURL:]':/Users/Mac/Documents/Runing/Classes/Menu.m:76: warning: class 'Menu' does not implement the 'NSXMLParserDelegate' protocol/Users/Mac/Documents/Runing/Classes/Menu.m: In function '-[Menu checkupdate:]':/Users/Mac/Documents/Runing/Classes/Menu.m:159: warning: 'Menu' may not respond to '-deleteAll'/Users/Mac/Documents/Runing/Classes/Menu.m:171: warning: 'Menu' may not respond to '-loadImageFromUrl:'/Users/Mac/Documents/Runing/Classes/Menu.m:175: warning: 'Menu' may not respond to '-loadImageFromUrl:'/Users/Mac/Documents/Runing/Classes/Menu.m:176: warning: 'Menu' may not respond to '-addData:setTitle:setMapData:setItemId:'/Users/Mac/Documents/Runing/Classes/Menu.m: In function '-[Menu fontColor:]':/Users/Mac/Documents/Runing/Classes/Menu.m:187: warning: local declaration of 'item' hides instance variable/Users/Mac/Documents/Runing/Classes/Menu.m: In function '+[Menu getNewDBConnection]':/Users/Mac/Documents/Runing/Classes/Menu.m:193: warning: unused variable 'error'/Users/Mac/Documents/Runing/Classes/Menu.m:192: warning: unused variable 'fileManager'/Users/Mac/Documents/Runing/Classes/Menu.m: In function '-[Menu addData:setTitle:setMapData:setItemId:]':/Users/Mac/Documents/Runing/Classes/Menu.m:242: warning: local declaration of 'itemId' hides instance variable/Users/Mac/Documents/Runing/Classes/Menu.m: At top level:/Users/Mac/Documents/Runing/Classes/Menu.m:15: warning: 'insert_statement' defined but not used/Users/Mac/Documents/Runing/Classes/Menu.m:19: warning: 'detailStmt' defined but not used16(22@39"'Menu' may not respond to '-fontColor:'313218872#215#96#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#45#0#45#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)313218872#311#102#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#45#0#45#0#0"0(22@39"'Menu' may not respond to '-fontColor:'313218872#588#96#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#46#0#46#0#26"'*' may not respond to '*'0(22@47"'Menu' may not respond to '-parseXMLFileAtURL:'313218872#765#104#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#65#0#65#0#26"'*' may not respond to '*'0(22@66"Class 'Menu' does not implement the 'NSXMLParserDelegate' protocol313218872#955#123#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#76#0#76#0#45"class '*' does not implement the '*' protocol0(22@38"'Menu' may not respond to '-deleteAll'313218872#1158#96#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#159#0#159#0#26"'*' may not respond to '*'0(22@46"'Menu' may not respond to '-loadImageFromUrl:'313218872#1254#104#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#171#0#171#0#26"'*' may not respond to '*'0(22@46"'Menu' may not respond to '-loadImageFromUrl:'313218872#1358#104#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#175#0#175#0#26"'*' may not respond to '*'0(22@67"'Menu' may not respond to '-addData:setTitle:setMapData:setItemId:'313218872#1462#125#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#176#0#176#0#26"'*' may not respond to '*'0(22@51"Local declaration of 'item' hides instance variable313218872#1665#109#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#187#0#187#0#0"0(22@23"Unused variable 'error'313218872#1860#81#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#193#0#193#0#19"unused variable '*'0(22@29"Unused variable 'fileManager'313218872#1941#87#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#192#0#192#0#19"unused variable '*'0(22@53"Local declaration of 'itemId' hides instance variable313218872#2134#111#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#242#0#242#0#0"0(23@13"At top level:313218873#2245#58#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#0#0#0#0#0"0(22@39"'insert_statement' defined but not used313218873#2303#96#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#15#0#15#0#24"'*' defined but not used0(22@33"'detailStmt' defined but not used313218873#2399#90#0(6@42"/Users/Mac/Documents/Runing/Classes/Menu.m304740272#19#0#19#0#24"'*' defined but not used0(0#0#42"/Users/Mac/Documents/Runing/Classes/Menu.m8603084736#1846"    cd /Users/Mac/Documents/Runing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-generated-files.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-own-target-headers.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-all-target-headers.hmap -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-project-headers.hmap -Wall -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -I/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/include -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources/i386 -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources -include /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-bwirjveyrnqzgueaygmpwxnxpdxc/Runing_Prefix.pch -c /Users/Mac/Documents/Runing/Classes/Menu.m -o /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Menu.o0#
+
+CCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/MyViewController.o /Users/Mac/Documents/Runing/Classes/MyViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313218873.043501
+e313218873.124329
+r1
+xCompileC
+xbuild/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/MyViewController.o
+x/Users/Mac/Documents/Runing/Classes/MyViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+o/Users/Mac/Documents/Runing/Classes/MyViewController.m: In function '-[MyViewController initWithPageNumber:]':
+o/Users/Mac/Documents/Runing/Classes/MyViewController.m:29: warning: suggest parentheses around assignment used as truth value
+lSLF07#2@62"Compile /Users/Mac/Documents/Runing/Classes/MyViewController.m313218873#313218873#0(380"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition/Users/Mac/Documents/Runing/Classes/MyViewController.m: In function '-[MyViewController initWithPageNumber:]':/Users/Mac/Documents/Runing/Classes/MyViewController.m:29: warning: suggest parentheses around assignment used as truth value1(22@57"Suggest parentheses around assignment used as truth value313218873#254#126#0(6@54"/Users/Mac/Documents/Runing/Classes/MyViewController.m303319590#29#0#29#0#0"0(0#0#54"/Users/Mac/Documents/Runing/Classes/MyViewController.m8608512992#1870"    cd /Users/Mac/Documents/Runing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-generated-files.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-own-target-headers.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-all-target-headers.hmap -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-project-headers.hmap -Wall -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -I/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/include -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources/i386 -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources -include /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-bwirjveyrnqzgueaygmpwxnxpdxc/Runing_Prefix.pch -c /Users/Mac/Documents/Runing/Classes/MyViewController.m -o /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/MyViewController.o0#
+
+CCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Player.o /Users/Mac/Documents/Runing/Classes/Player.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313218872.936659
+e313218873.230301
+r1
+xCompileC
+xbuild/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Player.o
+x/Users/Mac/Documents/Runing/Classes/Player.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+o/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player init]':
+o/Users/Mac/Documents/Runing/Classes/Player.m:46: warning: 'spriteWithCGImage:' is deprecated (declared at /Users/Mac/Documents/Runing/libs/cocos2d/CCSprite.h:210)
+o/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene1:]':
+o/Users/Mac/Documents/Runing/Classes/Player.m:134: warning: 'Player' may not respond to '-writeToPlist:'
+o/Users/Mac/Documents/Runing/Classes/Player.m:134: warning: (Messages without a matching method signature
+o/Users/Mac/Documents/Runing/Classes/Player.m:134: warning: will be assumed to return 'id' and accept
+o/Users/Mac/Documents/Runing/Classes/Player.m:134: warning: '...' as arguments.)
+o/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene2:]':
+o/Users/Mac/Documents/Runing/Classes/Player.m:140: warning: 'Player' may not respond to '-writeToPlist:'
+o/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene3:]':
+o/Users/Mac/Documents/Runing/Classes/Player.m:146: warning: 'Player' may not respond to '-writeToPlist:'
+o/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene4:]':
+o/Users/Mac/Documents/Runing/Classes/Player.m:152: warning: 'Player' may not respond to '-writeToPlist:'
+o/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene5:]':
+o/Users/Mac/Documents/Runing/Classes/Player.m:158: warning: 'Player' may not respond to '-writeToPlist:'
+o/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene6:]':
+o/Users/Mac/Documents/Runing/Classes/Player.m:164: warning: 'Player' may not respond to '-writeToPlist:'
+o/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene7:]':
+o/Users/Mac/Documents/Runing/Classes/Player.m:170: warning: 'Player' may not respond to '-writeToPlist:'
+o/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene8:]':
+o/Users/Mac/Documents/Runing/Classes/Player.m:176: warning: 'Player' may not respond to '-writeToPlist:'
+o/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene9:]':
+o/Users/Mac/Documents/Runing/Classes/Player.m:182: warning: 'Player' may not respond to '-writeToPlist:'
+o/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene10:]':
+o/Users/Mac/Documents/Runing/Classes/Player.m:188: warning: 'Player' may not respond to '-writeToPlist:'
+o/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene11:]':
+o/Users/Mac/Documents/Runing/Classes/Player.m:194: warning: 'Player' may not respond to '-writeToPlist:'
+lSLF07#2@52"Compile /Users/Mac/Documents/Runing/Classes/Player.m313218872#313218873#0(2683"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player init]':/Users/Mac/Documents/Runing/Classes/Player.m:46: warning: 'spriteWithCGImage:' is deprecated (declared at /Users/Mac/Documents/Runing/libs/cocos2d/CCSprite.h:210)/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene1:]':/Users/Mac/Documents/Runing/Classes/Player.m:134: warning: 'Player' may not respond to '-writeToPlist:'/Users/Mac/Documents/Runing/Classes/Player.m:134: warning: (Messages without a matching method signature/Users/Mac/Documents/Runing/Classes/Player.m:134: warning: will be assumed to return 'id' and accept/Users/Mac/Documents/Runing/Classes/Player.m:134: warning: '...' as arguments.)/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene2:]':/Users/Mac/Documents/Runing/Classes/Player.m:140: warning: 'Player' may not respond to '-writeToPlist:'/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene3:]':/Users/Mac/Documents/Runing/Classes/Player.m:146: warning: 'Player' may not respond to '-writeToPlist:'/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene4:]':/Users/Mac/Documents/Runing/Classes/Player.m:152: warning: 'Player' may not respond to '-writeToPlist:'/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene5:]':/Users/Mac/Documents/Runing/Classes/Player.m:158: warning: 'Player' may not respond to '-writeToPlist:'/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene6:]':/Users/Mac/Documents/Runing/Classes/Player.m:164: warning: 'Player' may not respond to '-writeToPlist:'/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene7:]':/Users/Mac/Documents/Runing/Classes/Player.m:170: warning: 'Player' may not respond to '-writeToPlist:'/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene8:]':/Users/Mac/Documents/Runing/Classes/Player.m:176: warning: 'Player' may not respond to '-writeToPlist:'/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene9:]':/Users/Mac/Documents/Runing/Classes/Player.m:182: warning: 'Player' may not respond to '-writeToPlist:'/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene10:]':/Users/Mac/Documents/Runing/Classes/Player.m:188: warning: 'Player' may not respond to '-writeToPlist:'/Users/Mac/Documents/Runing/Classes/Player.m: In function '-[Player scene11:]':/Users/Mac/Documents/Runing/Classes/Player.m:194: warning: 'Player' may not respond to '-writeToPlist:'13(22@104"'spriteWithCGImage:' is deprecated (declared at /Users/Mac/Documents/Runing/libs/cocos2d/CCSprite.h:210)313218873#219#163#0(6@44"/Users/Mac/Documents/Runing/Classes/Player.m305138108#46#0#46#0#33"'*' is deprecated (declared at *)0(22@44"'Player' may not respond to '-writeToPlist:'313218873#461#104#0(6@44"/Users/Mac/Documents/Runing/Classes/Player.m305138108#134#0#134#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)313218873#565#105#0(6@44"/Users/Mac/Documents/Runing/Classes/Player.m305138108#134#0#134#0#0"0(22@44"'Player' may not respond to '-writeToPlist:'313218873#930#104#0(6@44"/Users/Mac/Documents/Runing/Classes/Player.m305138108#140#0#140#0#26"'*' may not respond to '*'0(22@44"'Player' may not respond to '-writeToPlist:'313218873#1113#104#0(6@44"/Users/Mac/Documents/Runing/Classes/Player.m305138108#146#0#146#0#26"'*' may not respond to '*'0(22@44"'Player' may not respond to '-writeToPlist:'313218873#1296#104#0(6@44"/Users/Mac/Documents/Runing/Classes/Player.m305138108#152#0#152#0#26"'*' may not respond to '*'0(22@44"'Player' may not respond to '-writeToPlist:'313218873#1479#104#0(6@44"/Users/Mac/Documents/Runing/Classes/Player.m305138108#158#0#158#0#26"'*' may not respond to '*'0(22@44"'Player' may not respond to '-writeToPlist:'313218873#1662#104#0(6@44"/Users/Mac/Documents/Runing/Classes/Player.m305138108#164#0#164#0#26"'*' may not respond to '*'0(22@44"'Player' may not respond to '-writeToPlist:'313218873#1845#104#0(6@44"/Users/Mac/Documents/Runing/Classes/Player.m305138108#170#0#170#0#26"'*' may not respond to '*'0(22@44"'Player' may not respond to '-writeToPlist:'313218873#2028#104#0(6@44"/Users/Mac/Documents/Runing/Classes/Player.m305138108#176#0#176#0#26"'*' may not respond to '*'0(22@44"'Player' may not respond to '-writeToPlist:'313218873#2211#104#0(6@44"/Users/Mac/Documents/Runing/Classes/Player.m305138108#182#0#182#0#26"'*' may not respond to '*'0(22@44"'Player' may not respond to '-writeToPlist:'313218873#2395#104#0(6@44"/Users/Mac/Documents/Runing/Classes/Player.m305138108#188#0#188#0#26"'*' may not respond to '*'0(22@44"'Player' may not respond to '-writeToPlist:'313218873#2579#104#0(6@44"/Users/Mac/Documents/Runing/Classes/Player.m305138108#194#0#194#0#26"'*' may not respond to '*'0(0#0#44"/Users/Mac/Documents/Runing/Classes/Player.m8607998048#1850"    cd /Users/Mac/Documents/Runing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-generated-files.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-own-target-headers.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-all-target-headers.hmap -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-project-headers.hmap -Wall -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -I/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/include -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources/i386 -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources -include /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-bwirjveyrnqzgueaygmpwxnxpdxc/Runing_Prefix.pch -c /Users/Mac/Documents/Runing/Classes/Player.m -o /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Player.o0#
+
+CCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/PlayerSelect.o /Users/Mac/Documents/Runing/Classes/PlayerSelect.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303317946.432168
+e303317946.494716
+r0
+xCompileC
+xbuild/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/PlayerSelect.o
+x/Users/Mac/Documents/Runing/Classes/PlayerSelect.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:3: error: no type or storage class may be specified here before 'implementation'
+o/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:8: error: expected ';' before '{' token
+o/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: '@end' missing in implementation context
+o/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: property 'scrollView' requires method '-scrollView' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: property 'scrollView' requires the method 'setScrollView:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: property 'viewControllers' requires method '-viewControllers' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: property 'viewControllers' requires the method 'setViewControllers:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: incomplete implementation of class 'PlayerSelect'
+o/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: method definition for '-viewDidLoad' not found
+o/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: method definition for '-scrollViewDidScroll:' not found
+o/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: method definition for '-loadScrollViewWithPage:' not found
+o/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: method definition for '-changePage:' not found
+lSLF07#2@58"Compile /Users/Mac/Documents/Runing/Classes/PlayerSelect.m303317946#303317946#0(1723"/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:3: error: no type or storage class may be specified here before 'implementation'/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:8: error: expected ';' before '{' token/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: '@end' missing in implementation context/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: property 'scrollView' requires method '-scrollView' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: property 'scrollView' requires the method 'setScrollView:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: property 'viewControllers' requires method '-viewControllers' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: property 'viewControllers' requires the method 'setViewControllers:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: incomplete implementation of class 'PlayerSelect'/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: method definition for '-viewDidLoad' not found/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: method definition for '-scrollViewDidScroll:' not found/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: method definition for '-loadScrollViewWithPage:' not found/Users/Mac/Documents/Runing/Classes/PlayerSelect.m:138: warning: method definition for '-changePage:' not found12(4@70"No type or storage class may be specified here before 'implementation'303317946#0#132#0(6@50"/Users/Mac/Documents/Runing/Classes/PlayerSelect.m303317945#3#0#3#0#0"0(4@29"Expected ';' before '{' token303317946#132#91#0(6@50"/Users/Mac/Documents/Runing/Classes/PlayerSelect.m303317945#8#0#8#0#19"expected * before *0(22@40"'@end' missing in implementation context303317946#223#106#0(6@50"/Users/Mac/Documents/Runing/Classes/PlayerSelect.m303317945#138#0#138#0#40"'@end' missing in implementation context0(22@128"Property 'scrollView' requires method '-scrollView' to be defined - use @synthesize, @dynamic or provide a method implementation303317946#329#194#0(6@50"/Users/Mac/Documents/Runing/Classes/PlayerSelect.m303317945#138#0#138#0#0"0(22@135"Property 'scrollView' requires the method 'setScrollView:' to be defined - use @synthesize, @dynamic or provide a method implementation303317946#523#201#0(6@50"/Users/Mac/Documents/Runing/Classes/PlayerSelect.m303317945#138#0#138#0#0"0(22@138"Property 'viewControllers' requires method '-viewControllers' to be defined - use @synthesize, @dynamic or provide a method implementation303317946#724#204#0(6@50"/Users/Mac/Documents/Runing/Classes/PlayerSelect.m303317945#138#0#138#0#0"0(22@145"Property 'viewControllers' requires the method 'setViewControllers:' to be defined - use @synthesize, @dynamic or provide a method implementation303317946#928#211#0(6@50"/Users/Mac/Documents/Runing/Classes/PlayerSelect.m303317945#138#0#138#0#0"0(22@49"Incomplete implementation of class 'PlayerSelect'303317946#1139#115#0(6@50"/Users/Mac/Documents/Runing/Classes/PlayerSelect.m303317945#138#0#138#0#38"incomplete implementation of class '*'0(22@46"Method definition for '-viewDidLoad' not found303317946#1254#112#0(6@50"/Users/Mac/Documents/Runing/Classes/PlayerSelect.m303317945#138#0#138#0#35"method definition for '*' not found0(22@55"Method definition for '-scrollViewDidScroll:' not found303317946#1366#121#0(6@50"/Users/Mac/Documents/Runing/Classes/PlayerSelect.m303317945#138#0#138#0#35"method definition for '*' not found0(22@58"Method definition for '-loadScrollViewWithPage:' not found303317946#1487#124#0(6@50"/Users/Mac/Documents/Runing/Classes/PlayerSelect.m303317945#138#0#138#0#35"method definition for '*' not found0(22@46"Method definition for '-changePage:' not found303317946#1611#112#0(6@50"/Users/Mac/Documents/Runing/Classes/PlayerSelect.m303317945#138#0#138#0#35"method definition for '*' not found0(0#0#50"/Users/Mac/Documents/Runing/Classes/PlayerSelect.m8628105504#1808"    cd /Users/Mac/Documents/Runing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-generated-files.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-own-target-headers.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-all-target-headers.hmap -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-project-headers.hmap -Wall -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -I/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/include -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources/i386 -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources -include /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-dppijykinpugvkafftvjcoadheid/Runing_Prefix.pch -c /Users/Mac/Documents/Runing/Classes/PlayerSelect.m -o /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/PlayerSelect.o1#
+
+CCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/RuningAppDelegate.o /Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313218872.329359
+e313218872.456332
+r1
+xCompileC
+xbuild/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/RuningAppDelegate.o
+x/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+o/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m: In function '-[RuningAppDelegate applicationDidFinishLaunching:]':
+o/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m:25: warning: 'RuningAppDelegate' may not respond to '-createEditableCopyOfDatabaseIfNeeded'
+o/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m:25: warning: (Messages without a matching method signature
+o/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m:25: warning: will be assumed to return 'id' and accept
+o/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m:25: warning: '...' as arguments.)
+lSLF07#2@63"Compile /Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m313218872#313218872#0(731"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m: In function '-[RuningAppDelegate applicationDidFinishLaunching:]':/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m:25: warning: 'RuningAppDelegate' may not respond to '-createEditableCopyOfDatabaseIfNeeded'/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m:25: warning: (Messages without a matching method signature/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m:25: warning: will be assumed to return 'id' and accept/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m:25: warning: '...' as arguments.)2(22@78"'RuningAppDelegate' may not respond to '-createEditableCopyOfDatabaseIfNeeded'313218872#267#148#0(6@55"/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m304178246#25#0#25#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)313218872#415#115#0(6@55"/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m304178246#25#0#25#0#0"0(0#0#55"/Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m8608361280#1872"    cd /Users/Mac/Documents/Runing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-generated-files.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-own-target-headers.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-all-target-headers.hmap -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-project-headers.hmap -Wall -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -I/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/include -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources/i386 -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources -include /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-bwirjveyrnqzgueaygmpwxnxpdxc/Runing_Prefix.pch -c /Users/Mac/Documents/Runing/Classes/RuningAppDelegate.m -o /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/RuningAppDelegate.o0#
+
+CCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/ScrollViewWithPagingViewController.o /Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313218873.124433
+e313218873.225876
+r1
+xCompileC
+xbuild/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/ScrollViewWithPagingViewController.o
+x/Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+lSLF07#2@80"Compile /Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.m313218873#313218873#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#72"/Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.m8608215808#1906"    cd /Users/Mac/Documents/Runing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-generated-files.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-own-target-headers.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-all-target-headers.hmap -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-project-headers.hmap -Wall -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -I/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/include -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources/i386 -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources -include /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-bwirjveyrnqzgueaygmpwxnxpdxc/Runing_Prefix.pch -c /Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.m -o /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/ScrollViewWithPagingViewController.o0#
+
+CCompileC build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/main-B9843B6026D6EFA4.o /Users/Mac/Documents/Runing/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313218872.328079
+e313218872.486629
+r1
+xCompileC
+xbuild/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/main-B9843B6026D6EFA4.o
+x/Users/Mac/Documents/Runing/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+lSLF07#2@42"Compile /Users/Mac/Documents/Runing/main.m313218872#313218872#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#34"/Users/Mac/Documents/Runing/main.m8607852352#1855"    cd /Users/Mac/Documents/Runing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-generated-files.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-own-target-headers.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-all-target-headers.hmap -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-project-headers.hmap -Wall -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -I/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/include -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources/i386 -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources -include /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-bwirjveyrnqzgueaygmpwxnxpdxc/Runing_Prefix.pch -c /Users/Mac/Documents/Runing/main.m -o /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/main-B9843B6026D6EFA4.o0#
+
+CCompileXIB /Users/Mac/Documents/Runing/Classes/Description.xib
+s303317782.861708
+e303317783.384671
+r1
+xCompileXIB
+x/Users/Mac/Documents/Runing/Classes/Description.xib
+lSLF07#2@34"CompileXIB Classes/Description.xib303317782#303317783#0(0"0(0#0#51"/Users/Mac/Documents/Runing/Classes/Description.xib8617940704#546"    cd /Users/Mac/Documents/Runing    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Description.nib /Users/Mac/Documents/Runing/Classes/Description.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/Mac/Documents/Runing/Classes/MyViewController.xib
+s304749066.068577
+e304749066.613479
+r1
+xCompileXIB
+x/Users/Mac/Documents/Runing/Classes/MyViewController.xib
+lSLF07#2@39"CompileXIB Classes/MyViewController.xib304749066#304749066#0(0"0(0#0#56"/Users/Mac/Documents/Runing/Classes/MyViewController.xib8632259776#558"    cd /Users/Mac/Documents/Runing    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/MyViewController.nib /Users/Mac/Documents/Runing/Classes/MyViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/Mac/Documents/Runing/Classes/PlayerSelect.xib
+s303317782.783991
+e303317783.229556
+r1
+xCompileXIB
+x/Users/Mac/Documents/Runing/Classes/PlayerSelect.xib
+lSLF07#2@35"CompileXIB Classes/PlayerSelect.xib303317782#303317783#0(0"0(0#0#52"/Users/Mac/Documents/Runing/Classes/PlayerSelect.xib8622502816#548"    cd /Users/Mac/Documents/Runing    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/PlayerSelect.nib /Users/Mac/Documents/Runing/Classes/PlayerSelect.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.xib
+s304749066.076820
+e304749066.549791
+r1
+xCompileXIB
+x/Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.xib:-1: warning: The 'scrollView' outlet of 'File's Owner' is connected to 'Scroll View' but 'scrollView' is no longer defined on ScrowViewWithPagingViewController.
+o/Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on ScrowViewWithPagingViewController.
+lSLF07#2@57"CompileXIB Classes/ScrollViewWithPagingViewController.xib304749066#304749066#0(494"/* com.apple.ibtool.document.warnings *//Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.xib:-1: warning: The 'scrollView' outlet of 'File's Owner' is connected to 'Scroll View' but 'scrollView' is no longer defined on ScrowViewWithPagingViewController./Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on ScrowViewWithPagingViewController.2(22@147"The 'scrollView' outlet of 'File's Owner' is connected to 'Scroll View' but 'scrollView' is no longer defined on ScrowViewWithPagingViewController.304749066#18446744073709551615#0#0(6@74"/Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.xib303318077#18446744073709551615#0#18446744073709551615#0#0"0(22@128"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on ScrowViewWithPagingViewController.304749066#18446744073709551615#0#0(6@74"/Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.xib303318077#18446744073709551615#0#18446744073709551615#0#0"0(0#0#74"/Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.xib8631776192#594"    cd /Users/Mac/Documents/Runing    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/ScrollViewWithPagingViewController.nib /Users/Mac/Documents/Runing/Classes/ScrollViewWithPagingViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCopyPlistFile /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/mySettings.plist Resources/mySettings.plist
+s304749065.946000
+e304749065.998788
+r1
+xCopyPlistFile
+x/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/mySettings.plist
+xResources/mySettings.plist
+lSLF07#2@31"Copy Resources/mySettings.plist304749065#304749066#0(0"0(0#0#54"/Users/Mac/Documents/Runing/Resources/mySettings.plist8621721024#378"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/mySettings.plist --outdir /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/Default.png Default.png
+s304749065.996257
+e304749066.023266
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png304749065#304749066#0(0"0(0#0#39"/Users/Mac/Documents/Runing/Default.png8603031104#421"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/Default.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/SQL.sqlite Resources/SQL.sqlite
+s304099564.928999
+e304099564.934478
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/SQL.sqlite
+xResources/SQL.sqlite
+lSLF07#2@25"Copy Resources/SQL.sqlite304099564#304099564#0(0"0(0#0#48"/Users/Mac/Documents/Runing/Resources/SQL.sqlite8611555232#430"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/Resources/SQL.sqlite /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/Sheep.M4A Sheep.M4A
+s304749065.987822
+e304749065.998662
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/Sheep.M4A
+xSheep.M4A
+lSLF07#2@14"Copy Sheep.M4A304749065#304749066#0(0"0(0#0#37"/Users/Mac/Documents/Runing/Sheep.M4A8606018016#419"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/Sheep.M4A /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/again_button.png again_button.png
+s304749065.995698
+e304749066.015719
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/again_button.png
+xagain_button.png
+lSLF07#2@21"Copy again_button.png304749065#304749066#0(0"0(0#0#44"/Users/Mac/Documents/Runing/again_button.png8603676768#426"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/again_button.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/ajax-loader.gif ajax-loader.gif
+s304749066.591719
+e304749066.598820
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/ajax-loader.gif
+xajax-loader.gif
+lSLF07#2@20"Copy ajax-loader.gif304749066#304749066#0(0"0(0#0#43"/Users/Mac/Documents/Runing/ajax-loader.gif8610839072#425"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/ajax-loader.gif /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/banana.png banana.png
+s304749066.566026
+e304749066.583092
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/banana.png
+xbanana.png
+lSLF07#2@15"Copy banana.png304749066#304749066#0(0"0(0#0#38"/Users/Mac/Documents/Runing/banana.png8619857984#420"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/banana.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/bitmapFont.fnt bitmapFont.fnt
+s304749065.874158
+e304749065.907452
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/bitmapFont.fnt
+xbitmapFont.fnt
+lSLF07#2@19"Copy bitmapFont.fnt304749065#304749065#0(0"0(0#0#42"/Users/Mac/Documents/Runing/bitmapFont.fnt8620754240#424"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/bitmapFont.fnt /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/bitmapFont.png bitmapFont.png
+s304749065.874722
+e304749065.907560
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/bitmapFont.png
+xbitmapFont.png
+lSLF07#2@19"Copy bitmapFont.png304749065#304749065#0(0"0(0#0#42"/Users/Mac/Documents/Runing/bitmapFont.png8620659552#424"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/bitmapFont.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/black_sheep.png black_sheep.png
+s304749065.994372
+e304749066.000821
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/black_sheep.png
+xblack_sheep.png
+lSLF07#2@20"Copy black_sheep.png304749065#304749066#0(0"0(0#0#43"/Users/Mac/Documents/Runing/black_sheep.png8605046752#425"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/black_sheep.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/cat.M4A cat.M4A
+s304749066.039986
+e304749066.069838
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/cat.M4A
+xcat.M4A
+lSLF07#2@12"Copy cat.M4A304749066#304749066#0(0"0(0#0#35"/Users/Mac/Documents/Runing/cat.M4A8631801056#417"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/cat.M4A /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/cat_new.png cat_new.png
+s304749066.035833
+e304749066.069730
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/cat_new.png
+xcat_new.png
+lSLF07#2@16"Copy cat_new.png304749066#304749066#0(0"0(0#0#39"/Users/Mac/Documents/Runing/cat_new.png8632164352#421"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/cat_new.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/changePlayerButton.png changePlayerButton.png
+s304749065.873579
+e304749065.907342
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/changePlayerButton.png
+xchangePlayerButton.png
+lSLF07#2@27"Copy changePlayerButton.png304749065#304749065#0(0"0(0#0#50"/Users/Mac/Documents/Runing/changePlayerButton.png8620980864#432"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/changePlayerButton.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/chiken.png chiken.png
+s304749065.906214
+e304749065.939350
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/chiken.png
+xchiken.png
+lSLF07#2@15"Copy chiken.png304749065#304749065#0(0"0(0#0#38"/Users/Mac/Documents/Runing/chiken.png8632516096#420"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/chiken.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/crab.png crab.png
+s304749066.583289
+e304749066.595366
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/crab.png
+xcrab.png
+lSLF07#2@13"Copy crab.png304749066#304749066#0(0"0(0#0#36"/Users/Mac/Documents/Runing/crab.png8611247232#418"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/crab.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/data.sqlite data.sqlite
+s304148603.734097
+e304148603.805807
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/data.sqlite
+xdata.sqlite
+lSLF07#2@16"Copy data.sqlite304148603#304148603#0(0"0(0#0#39"/Users/Mac/Documents/Runing/data.sqlite8620164352#421"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/data.sqlite /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/dog.png dog.png
+s304749065.932744
+e304749065.947126
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/dog.png
+xdog.png
+lSLF07#2@12"Copy dog.png304749065#304749065#0(0"0(0#0#35"/Users/Mac/Documents/Runing/dog.png8623131744#417"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/dog.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/duck.png duck.png
+s304749065.937619
+e304749065.947245
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/duck.png
+xduck.png
+lSLF07#2@13"Copy duck.png304749065#304749065#0(0"0(0#0#36"/Users/Mac/Documents/Runing/duck.png8622568352#418"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/duck.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/elephant.png elephant.png
+s304749066.570125
+e304749066.595601
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/elephant.png
+xelephant.png
+lSLF07#2@17"Copy elephant.png304749066#304749066#0(0"0(0#0#40"/Users/Mac/Documents/Runing/elephant.png8612908576#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/elephant.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/eye.png eye.png
+s304749066.062889
+e304749066.069622
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/eye.png
+xeye.png
+lSLF07#2@12"Copy eye.png304749066#304749066#0(0"0(0#0#35"/Users/Mac/Documents/Runing/eye.png8632698464#417"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/eye.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/fps_images.png Resources/fps_images.png
+s304749065.871759
+e304749065.907001
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/fps_images.png
+xResources/fps_images.png
+lSLF07#2@29"Copy Resources/fps_images.png304749065#304749065#0(0"0(0#0#52"/Users/Mac/Documents/Runing/Resources/fps_images.png8621547776#434"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/Resources/fps_images.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/goose.png goose.png
+s304749065.908557
+e304749065.938803
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/goose.png
+xgoose.png
+lSLF07#2@14"Copy goose.png304749065#304749065#0(0"0(0#0#37"/Users/Mac/Documents/Runing/goose.png8626318240#419"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/goose.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/icon.png icon.png
+s304749065.876074
+e304749065.907675
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png304749065#304749065#0(0"0(0#0#36"/Users/Mac/Documents/Runing/icon.png8620483488#418"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/icon.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/key_question.png key_question.png
+s304749065.939417
+e304749065.953372
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/key_question.png
+xkey_question.png
+lSLF07#2@21"Copy key_question.png304749065#304749065#0(0"0(0#0#44"/Users/Mac/Documents/Runing/key_question.png8621838656#426"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/key_question.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/menu_button.png menu_button.png
+s304749065.995109
+e304749066.015609
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/menu_button.png
+xmenu_button.png
+lSLF07#2@20"Copy menu_button.png304749065#304749066#0(0"0(0#0#43"/Users/Mac/Documents/Runing/menu_button.png8604685632#425"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/menu_button.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/mouse.png mouse.png
+s304749065.907930
+e304749065.938680
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/mouse.png
+xmouse.png
+lSLF07#2@14"Copy mouse.png304749065#304749065#0(0"0(0#0#37"/Users/Mac/Documents/Runing/mouse.png8630375552#419"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/mouse.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/mushroom.png mushroom.png
+s304749066.574941
+e304749066.595707
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/mushroom.png
+xmushroom.png
+lSLF07#2@17"Copy mushroom.png304749066#304749066#0(0"0(0#0#40"/Users/Mac/Documents/Runing/mushroom.png8612498496#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/mushroom.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/pause.png pause.png
+s304749066.058938
+e304749066.069511
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/pause.png
+xpause.png
+lSLF07#2@14"Copy pause.png304749066#304749066#0(0"0(0#0#37"/Users/Mac/Documents/Runing/pause.png8631040096#419"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/pause.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/pig.png pig.png
+s304749066.568289
+e304749066.583209
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/pig.png
+xpig.png
+lSLF07#2@12"Copy pig.png304749066#304749066#0(0"0(0#0#35"/Users/Mac/Documents/Runing/pig.png8613927872#417"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/pig.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/play.png play.png
+s304749066.049201
+e304749066.069393
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/play.png
+xplay.png
+lSLF07#2@13"Copy play.png304749066#304749066#0(0"0(0#0#36"/Users/Mac/Documents/Runing/play.png8631171680#418"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/play.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/playAgainButton.png playAgainButton.png
+s304749065.873011
+e304749065.907231
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/playAgainButton.png
+xplayAgainButton.png
+lSLF07#2@24"Copy playAgainButton.png304749065#304749065#0(0"0(0#0#47"/Users/Mac/Documents/Runing/playAgainButton.png8621133024#429"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/playAgainButton.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/player_1.png player_1.png
+s304749066.559796
+e304749066.582953
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/player_1.png
+xplayer_1.png
+lSLF07#2@17"Copy player_1.png304749066#304749066#0(0"0(0#0#40"/Users/Mac/Documents/Runing/player_1.png8620296096#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/player_1.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/player_2.png player_2.png
+s304749066.557328
+e304749066.577293
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/player_2.png
+xplayer_2.png
+lSLF07#2@17"Copy player_2.png304749066#304749066#0(0"0(0#0#40"/Users/Mac/Documents/Runing/player_2.png8620519616#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/player_2.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/player_3.png player_3.png
+s304749066.552182
+e304749066.577186
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/player_3.png
+xplayer_3.png
+lSLF07#2@17"Copy player_3.png304749066#304749066#0(0"0(0#0#40"/Users/Mac/Documents/Runing/player_3.png8620695840#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/player_3.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/player_4.png player_4.png
+s304749066.549890
+e304749066.577064
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/player_4.png
+xplayer_4.png
+lSLF07#2@17"Copy player_4.png304749066#304749066#0(0"0(0#0#40"/Users/Mac/Documents/Runing/player_4.png8621027040#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/player_4.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/player_backgroup.png player_backgroup.png
+s304749065.998963
+e304749066.041017
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/player_backgroup.png
+xplayer_backgroup.png
+lSLF07#2@25"Copy player_backgroup.png304749065#304749066#0(0"0(0#0#48"/Users/Mac/Documents/Runing/player_backgroup.png8613860128#430"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/player_backgroup.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/player_select_bg.png player_select_bg.png
+s304749065.936705
+e304749065.948952
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/player_select_bg.png
+xplayer_select_bg.png
+lSLF07#2@25"Copy player_select_bg.png304749065#304749065#0(0"0(0#0#48"/Users/Mac/Documents/Runing/player_select_bg.png8622920096#430"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/player_select_bg.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/putoo.sqlite Resources/putoo.sqlite
+s304749066.593027
+e304749066.603158
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/putoo.sqlite
+xResources/putoo.sqlite
+lSLF07#2@27"Copy Resources/putoo.sqlite304749066#304749066#0(0"0(0#0#50"/Users/Mac/Documents/Runing/Resources/putoo.sqlite8609951872#432"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/Resources/putoo.sqlite /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/rabbit.png rabbit.png
+s304749065.904586
+e304749065.939242
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/rabbit.png
+xrabbit.png
+lSLF07#2@15"Copy rabbit.png304749065#304749065#0(0"0(0#0#38"/Users/Mac/Documents/Runing/rabbit.png8620261120#420"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/rabbit.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/redneck.png redneck.png
+s304749065.919795
+e304749065.938912
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/redneck.png
+xredneck.png
+lSLF07#2@16"Copy redneck.png304749065#304749065#0(0"0(0#0#39"/Users/Mac/Documents/Runing/redneck.png8625867712#421"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/redneck.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/redneck_s_wife.png redneck_s_wife.png
+s304749065.925459
+e304749065.939137
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/redneck_s_wife.png
+xredneck_s_wife.png
+lSLF07#2@23"Copy redneck_s_wife.png304749065#304749065#0(0"0(0#0#46"/Users/Mac/Documents/Runing/redneck_s_wife.png8624591456#428"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/redneck_s_wife.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/sheep.png sheep.png
+s304749065.923920
+e304749065.939023
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/sheep.png
+xsheep.png
+lSLF07#2@14"Copy sheep.png304749065#304749065#0(0"0(0#0#37"/Users/Mac/Documents/Runing/sheep.png8625293120#419"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/sheep.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/short_sheep.M4A short_sheep.M4A
+s304749065.996824
+e304749066.023483
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/short_sheep.M4A
+xshort_sheep.M4A
+lSLF07#2@20"Copy short_sheep.M4A304749065#304749066#0(0"0(0#0#43"/Users/Mac/Documents/Runing/short_sheep.M4A8598751904#425"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/short_sheep.M4A /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/snail.png snail.png
+s304749066.563725
+e304749066.595489
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/snail.png
+xsnail.png
+lSLF07#2@14"Copy snail.png304749066#304749066#0(0"0(0#0#37"/Users/Mac/Documents/Runing/snail.png8620143872#419"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/snail.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/snake.png snake.png
+s304749066.067830
+e304749066.076729
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/snake.png
+xsnake.png
+lSLF07#2@14"Copy snake.png304749066#304749066#0(0"0(0#0#37"/Users/Mac/Documents/Runing/snake.png8632414848#419"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/snake.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/sprites.png sprites.png
+s304749065.872434
+e304749065.907119
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/sprites.png
+xsprites.png
+lSLF07#2@16"Copy sprites.png304749065#304749065#0(0"0(0#0#39"/Users/Mac/Documents/Runing/sprites.png8621374528#421"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/sprites.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/sprites1.png sprites1.png
+s304053291.379885
+e304053291.395581
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/sprites1.png
+xsprites1.png
+opbxcp: sprites1.png: No such file or directory
+lSLF07#2@17"Copy sprites1.png304053291#304053291#0(47"pbxcp: sprites1.png: No such file or directory1(4@46"pbxcp: sprites1.png: No such file or directory304053291#18446744073709551615#0#0(6@0"304053291#0#0#0#0#0"0(0#0#40"/Users/Mac/Documents/Runing/sprites1.png8623804928#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/sprites1.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app1#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/sprites10.png sprites10.png
+s304749065.953471
+e304749065.986880
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/sprites10.png
+xsprites10.png
+lSLF07#2@18"Copy sprites10.png304749065#304749065#0(0"0(0#0#41"/Users/Mac/Documents/Runing/sprites10.png8621250112#423"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/sprites10.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/sprites11.png sprites11.png
+s304749066.584620
+e304749066.601491
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/sprites11.png
+xsprites11.png
+lSLF07#2@18"Copy sprites11.png304749066#304749066#0(0"0(0#0#41"/Users/Mac/Documents/Runing/sprites11.png8611019328#423"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/sprites11.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/sprites2.png sprites2.png
+s304749065.980845
+e304749065.998897
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/sprites2.png
+xsprites2.png
+lSLF07#2@17"Copy sprites2.png304749065#304749066#0(0"0(0#0#40"/Users/Mac/Documents/Runing/sprites2.png8611357792#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/sprites2.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/sprites3.png sprites3.png
+s304749065.972386
+e304749065.987665
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/sprites3.png
+xsprites3.png
+lSLF07#2@17"Copy sprites3.png304749065#304749065#0(0"0(0#0#40"/Users/Mac/Documents/Runing/sprites3.png8611573888#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/sprites3.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/sprites4.png sprites4.png
+s304749065.971630
+e304749065.987552
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/sprites4.png
+xsprites4.png
+lSLF07#2@17"Copy sprites4.png304749065#304749065#0(0"0(0#0#40"/Users/Mac/Documents/Runing/sprites4.png8612017248#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/sprites4.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/sprites5.png sprites5.png
+s304749065.968760
+e304749065.987444
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/sprites5.png
+xsprites5.png
+lSLF07#2@17"Copy sprites5.png304749065#304749065#0(0"0(0#0#40"/Users/Mac/Documents/Runing/sprites5.png8612349120#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/sprites5.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/sprites6.png sprites6.png
+s304749065.965871
+e304749065.987333
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/sprites6.png
+xsprites6.png
+lSLF07#2@17"Copy sprites6.png304749065#304749065#0(0"0(0#0#40"/Users/Mac/Documents/Runing/sprites6.png8620478752#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/sprites6.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/sprites7.png sprites7.png
+s304749065.961595
+e304749065.987225
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/sprites7.png
+xsprites7.png
+lSLF07#2@17"Copy sprites7.png304749065#304749065#0(0"0(0#0#40"/Users/Mac/Documents/Runing/sprites7.png8620642656#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/sprites7.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/sprites8.png sprites8.png
+s304749065.960721
+e304749065.987113
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/sprites8.png
+xsprites8.png
+lSLF07#2@17"Copy sprites8.png304749065#304749065#0(0"0(0#0#40"/Users/Mac/Documents/Runing/sprites8.png8620916192#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/sprites8.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/sprites9.png sprites9.png
+s304749065.955142
+e304749065.987004
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/sprites9.png
+xsprites9.png
+lSLF07#2@17"Copy sprites9.png304749065#304749065#0(0"0(0#0#40"/Users/Mac/Documents/Runing/sprites9.png8621038336#422"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/sprites9.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/start_game.png start_game.png
+s304749065.885587
+e304749065.907785
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/start_game.png
+xstart_game.png
+lSLF07#2@19"Copy start_game.png304749065#304749065#0(0"0(0#0#42"/Users/Mac/Documents/Runing/start_game.png8620319520#424"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/start_game.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/step1.M4A step1.M4A
+s304749065.997389
+e304749066.023599
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/step1.M4A
+xstep1.M4A
+lSLF07#2@14"Copy step1.M4A304749065#304749066#0(0"0(0#0#37"/Users/Mac/Documents/Runing/step1.M4A8620182080#419"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/step1.M4A /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/step2_map.png step2_map.png
+s304749065.999572
+e304749066.041137
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/step2_map.png
+xstep2_map.png
+lSLF07#2@18"Copy step2_map.png304749065#304749066#0(0"0(0#0#41"/Users/Mac/Documents/Runing/step2_map.png8612901440#423"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/step2_map.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/step3_map.png step3_map.png
+s304749066.000144
+e304749066.049123
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/step3_map.png
+xstep3_map.png
+lSLF07#2@18"Copy step3_map.png304749066#304749066#0(0"0(0#0#41"/Users/Mac/Documents/Runing/step3_map.png8611586912#423"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/step3_map.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/step4_map.png step4_map.png
+s304749066.000889
+e304749066.015483
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/step4_map.png
+xstep4_map.png
+lSLF07#2@18"Copy step4_map.png304749066#304749066#0(0"0(0#0#41"/Users/Mac/Documents/Runing/step4_map.png8607570240#423"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/step4_map.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/step5_map.png step5_map.png
+s304749066.023677
+e304749066.048362
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/step5_map.png
+xstep5_map.png
+lSLF07#2@18"Copy step5_map.png304749066#304749066#0(0"0(0#0#41"/Users/Mac/Documents/Runing/step5_map.png8605358592#423"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/step5_map.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/step6_map.png step6_map.png
+s304749066.028866
+e304749066.048614
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/step6_map.png
+xstep6_map.png
+lSLF07#2@18"Copy step6_map.png304749066#304749066#0(0"0(0#0#41"/Users/Mac/Documents/Runing/step6_map.png8598751264#423"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/step6_map.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/step7_map.png step7_map.png
+s304749066.029911
+e304749066.048744
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/step7_map.png
+xstep7_map.png
+lSLF07#2@18"Copy step7_map.png304749066#304749066#0(0"0(0#0#41"/Users/Mac/Documents/Runing/step7_map.png8632414464#423"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/step7_map.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/step8_map.png step8_map.png
+s304749066.031934
+e304749066.048872
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/step8_map.png
+xstep8_map.png
+lSLF07#2@18"Copy step8_map.png304749066#304749066#0(0"0(0#0#41"/Users/Mac/Documents/Runing/step8_map.png8632218912#423"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/step8_map.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CCpResource build/Debug-iphonesimulator/Runing.app/universe_map.png universe_map.png
+s304749065.997961
+e304749066.048997
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Runing.app/universe_map.png
+xuniverse_map.png
+lSLF07#2@21"Copy universe_map.png304749065#304749066#0(0"0(0#0#44"/Users/Mac/Documents/Runing/universe_map.png8620070304#426"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Mac/Documents/Runing/universe_map.png /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+
+CGenerateDSYMFile /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app.dSYM /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Runing
+s313218874.140860
+e313218874.389232
+r1
+xGenerateDSYMFile
+x/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app.dSYM
+x/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Runing
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Runing.app.dSYM build/Debug-iphonesimulator/Runing.app/Runing313218874#313218874#0(0"0(0#0#73"/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Runing8608112480#347"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Runing -o /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app.dSYM0#
+
+CLd /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Runing normal i386
+s313218873.230407
+e313218874.140694
+r1
+xLd
+x/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Runing
+xnormal
+xi386
+lSLF07#2@78"Link /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Runing313218873#313218874#0(0"0(0#0#0"8608344864#1002"    cd /Users/Mac/Documents/Runing    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -filelist /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Objects-normal/i386/Runing.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -lsqlite3.0 -o /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Runing0#
+
+CProcessInfoPlistFile /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Info.plist Resources/Info.plist
+s313218871.489338
+e313218871.493318
+r1
+xProcessInfoPlistFile
+x/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist313218871#313218871#0(0"0(0#0#48"/Users/Mac/Documents/Runing/Resources/Info.plist8604488544#446"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app/Info.plist0#
+
+CProcessPCH /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-akmtvgjtbganoycbvkycudcyskva/Runing_Prefix.pch.gch Runing_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-bwirjveyrnqzgueaygmpwxnxpdxc/Runing_Prefix.pch.gch Runing_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313218871.497144
+e313218872.327850
+r1
+xProcessPCH
+x/var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-bwirjveyrnqzgueaygmpwxnxpdxc/Runing_Prefix.pch.gch
+xRuning_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+lSLF07#2@28"Precompile Runing_Prefix.pch313218871#313218872#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#45"/Users/Mac/Documents/Runing/Runing_Prefix.pch7309993515863140352#1742"    cd /Users/Mac/Documents/Runing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-generated-files.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-own-target-headers.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-all-target-headers.hmap -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-project-headers.hmap -Wall -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -I/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/include -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources/i386 -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources -c /Users/Mac/Documents/Runing/Runing_Prefix.pch -o /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-bwirjveyrnqzgueaygmpwxnxpdxc/Runing_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-dppijykinpugvkafftvjcoadheid/Runing_Prefix.pch.gch Runing_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s304749066.613610
+e304749067.259775
+r1
+xProcessPCH
+x/var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-dppijykinpugvkafftvjcoadheid/Runing_Prefix.pch.gch
+xRuning_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Runing_Prefix.pch304749066#304749067#0(0"0(0#0#45"/Users/Mac/Documents/Runing/Runing_Prefix.pch8605457536#1688"    cd /Users/Mac/Documents/Runing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-generated-files.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-own-target-headers.hmap -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-all-target-headers.hmap -iquote /Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/Runing-project-headers.hmap -Wall -F/Users/Mac/Documents/Runing/build/Debug-iphonesimulator -I/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/include -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources/i386 -I/Users/Mac/Documents/Runing/build/Runing.build/Debug-iphonesimulator/Runing.build/DerivedSources -c /Users/Mac/Documents/Runing/Runing_Prefix.pch -o /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-dppijykinpugvkafftvjcoadheid/Runing_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/51/51K1JSKTGDm42Cyy1ItNj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Runing_Prefix-gtmrufrfbwltgidsxpsatmxuwlkh/Runing_Prefix.pch.gch Runing_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app
+s313218874.389318
+e313218874.392135
+r1
+xTouch
+x/Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app
+lSLF07#2@72"Touch /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app313218874#313218874#0(0"0(0#0#0"8608562720#255"    cd /Users/Mac/Documents/Runing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Mac/Documents/Runing/build/Debug-iphonesimulator/Runing.app0#
+

@@ -1,0 +1,614 @@
+#import "Game.h"
+#import "Main.h"
+#import "Highscores.h"
+#import "SimpleAudioEngine.h"
+
+@interface Game (Private)
+- (void)initPlatforms;
+- (void)initPlatform;
+- (void)startGame;
+- (void)resetPlatforms;
+- (void)resetPlatform;
+- (void)resetBird;
+- (void)resetBonus;
+- (void)step:(ccTime)dt;
+- (void)jump;
+- (void)showHighscores;
+CCSprite *monster;
+float new_position;
+float new_position_x;
+NSString *player;
+float monster_min_y=0.0;
+float monster_max_y=0.0;
+float monster_min_x=0.0;
+float monster_max_x = 0.0;
+
+@end
+
+
+@implementation Game
+
+- (id)init {
+	//	NSLog(@"Game::init");
+	
+	if(![super init]) return nil;
+	
+	gameSuspended = YES;
+	
+	CCSpriteSheet *spriteManager = (CCSpriteSheet*)[self getChildByTag:kSpriteManager];
+	
+	[self initPlatforms];
+	
+	
+	//monster
+	//CCSprite *monster=[CCSprite spriteWithSpriteSheet:spriteManager rect:CGRectMake(612, 293, 44, 70)];
+	//[spriteManager addChild:monster z:4 tag:kMonster];
+	//[monster setVisible:NO];
+	
+	//bird
+	//bird 600
+	//sheep 655
+	//CCSprite *bird = [CCSprite spriteWithSpriteSheet:spriteManager rect:CGRectMake(655,13,44,44)];
+	CCSprite *bird = [CCSprite spriteWithSpriteSheet:spriteManager rect:CGRectMake(703,16,44,44)];
+	[spriteManager addChild:bird z:4 tag:kBird];
+	
+	
+	
+	CCSprite *bonus;
+	for(int i=0; i<kNumBonuses; i++) {
+		bonus = [CCSprite spriteWithSpriteSheet:spriteManager rect:CGRectMake(608+i*32,256,25,25)];
+		[spriteManager addChild:bonus z:4 tag:kBonusStartTag+i];
+		bonus.visible = NO;
+	}
+	
+	//	LabelAtlas *scoreLabel = [LabelAtlas labelAtlasWithString:@"0" charMapFile:@"charmap.png" itemWidth:24 itemHeight:32 startCharMap:' '];
+	//	[self addChild:scoreLabel z:5 tag:kScoreLabel];
+	
+	CCBitmapFontAtlas *scoreLabel = [CCBitmapFontAtlas bitmapFontAtlasWithString:@"0" fntFile:@"bitmapFont.fnt"];
+	[self addChild:scoreLabel z:5 tag:kScoreLabel];
+	scoreLabel.position = ccp(160,450);
+	//scoreLabel.position=CGPointMake(50, 450);
+	pause=[CCMenuItemImage itemFromNormalImage:@"pause.png" selectedImage:@"pause.png" target:self selector:@selector(doPause:)];
+	CCMenu *menu=[CCMenu menuWithItems:pause,nil];
+	[menu setPosition:CGPointMake(280, 450)];
+	[self addChild:menu z:19 tag:881];
+	
+	[self schedule:@selector(step:)];
+	
+	isTouchEnabled = NO;
+	isAccelerometerEnabled = YES;
+	
+	[[UIAccelerometer sharedAccelerometer] setUpdateInterval:(1.0 / kFPS)];
+	
+	[self startGame];
+	
+	return self;
+}
+
+- (void)dealloc {
+	//	NSLog(@"Game::dealloc");
+	[super dealloc];
+}
+
+- (void)initPlatforms {
+	//	NSLog(@"initPlatforms");
+	
+	currentPlatformTag = kPlatformsStartTag;
+	while(currentPlatformTag < kPlatformsStartTag + kNumPlatforms) {
+		[self initPlatform];
+		currentPlatformTag++;
+	}
+	
+	[self resetPlatforms];
+}
+
+- (void)initPlatform {
+	
+	CGRect rect;
+	
+	switch(random()%3) {
+			//case 0: rect = CGRectMake(608,64,102,36); break;
+			//case 1: rect = CGRectMake(608,128,90,32); break;
+		case 0: rect = CGRectMake(712,139,44,15); 
+			break;
+		case 1: rect = CGRectMake(712,139,44,15); 
+			break;
+		case 2: rect = CGRectMake(764,140,44,15); 
+			break;
+	}
+	
+	CCSpriteSheet *spriteManager = (CCSpriteSheet*)[self getChildByTag:kSpriteManager];
+	CCSprite *platform = [CCSprite spriteWithSpriteSheet:spriteManager rect:rect];
+	[spriteManager addChild:platform z:3 tag:currentPlatformTag];
+}
+
+
+- (void)startGame {
+	//執行背景音樂
+	//	NSLog(@"startGame");
+	//play bg music
+	//[[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"bg.mid"];
+	
+	score = 0;
+	
+	[self resetClouds];
+	[self resetPlatforms];
+	[self resetBird];
+	[self resetBonus];
+	
+	[[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+	gameSuspended = NO;
+	[[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"step1.M4A"];
+	
+	player=[self readPlist:@"Player"];
+	//stop monster
+	//[self schedule:@selector(resetMonster:) interval:10];
+}
+
+- (void)resetPlatforms {
+	//	NSLog(@"resetPlatforms");
+	
+	currentPlatformY = -1;
+	currentPlatformTag = kPlatformsStartTag;
+	currentMaxPlatformStep = 10.0f;
+	currentBonusPlatformIndex = 0;
+	currentBonusType = 0;
+	platformCount = 0;
+	
+	while(currentPlatformTag < kPlatformsStartTag + kNumPlatforms) {
+		[self resetPlatform];
+		currentPlatformTag++;
+	}
+}
+
+- (void)resetMonster:(id)render{
+	CCSpriteSheet *spriteManager = (CCSpriteSheet*)[self getChildByTag:kSpriteManager];
+	monster = (CCSprite*)[spriteManager getChildByTag:kMonster];
+	[monster setVisible:YES];
+	new_position=bird_vel.y+1000;
+	
+	switch (random()%4) {
+		case 0:
+			[monster setPosition:CGPointMake(320, 0)];
+			[monster runAction: [CCMoveTo actionWithDuration:3 position:CGPointMake(bird_pos.x ,new_position)]];
+			break;
+		case 1:
+			[monster setPosition:CGPointMake(20, 0)];
+			[monster runAction: [CCMoveTo actionWithDuration:3 position:CGPointMake(320 ,new_position)]];
+			break;
+		case 2:
+			[monster setPosition:CGPointMake(80, 0)];
+			[monster runAction: [CCMoveTo actionWithDuration:3 position:CGPointMake(220 ,new_position)]];
+			break;
+		case 3:
+			[monster setPosition:CGPointMake(270, 0)];
+			[monster runAction: [CCMoveTo actionWithDuration:3 position:CGPointMake(120 ,new_position)]];
+			break;
+		case 4:
+			[monster setPosition:CGPointMake(320, 0)];
+			[monster runAction: [CCMoveTo actionWithDuration:3 position:CGPointMake(20 ,new_position)]];
+			break;
+	}
+	//NSLog(@"mmmmy.....%f",monster.position.y);
+	//NSLog(@"mmmmx.....%f",monster.position.x);
+	//NSLog(@"birdy.....%f",bird_vel.y);
+	//NSLog(@"birdx.....%f",bird_pos.x);
+	//monster.position = CGPointMake(bird_pos.x, bird_pos.y+50);
+	//monster.scaleX = 1.0f;
+}
+
+
+- (void)resetPlatform {
+	
+	if(currentPlatformY < 0) {
+		currentPlatformY = 30.0f;
+	} else {
+		currentPlatformY += random() % (int)(currentMaxPlatformStep - kMinPlatformStep) + kMinPlatformStep;
+		if(currentMaxPlatformStep < kMaxPlatformStep) {
+			currentMaxPlatformStep += 0.5f;
+		}
+	}
+	
+	CCSpriteSheet *spriteManager = (CCSpriteSheet*)[self getChildByTag:kSpriteManager];
+	CCSprite *platform = (CCSprite*)[spriteManager getChildByTag:currentPlatformTag];
+	
+	if(random()%2==1) platform.scaleX = -1.0f;
+	
+	float x;
+	CGSize size = platform.contentSize;
+	if(currentPlatformY == 30.0f) {
+		x = 160.0f;
+	} else {
+		x = random() % (320-(int)size.width) + size.width/2;
+	}
+	
+	platform.position = ccp(x,currentPlatformY);
+	platformCount++;
+	//	NSLog(@"platformCount = %d",platformCount);
+	
+	if(platformCount == currentBonusPlatformIndex) {
+		//		NSLog(@"platformCount == currentBonusPlatformIndex");
+		CCSprite *bonus = (CCSprite*)[spriteManager getChildByTag:kBonusStartTag+currentBonusType];
+		bonus.position = ccp(x,currentPlatformY+30);
+		bonus.visible = YES;
+	}
+}
+
+- (void)resetBird {
+	//	NSLog(@"resetBird");
+	
+	CCSpriteSheet *spriteManager = (CCSpriteSheet*)[self getChildByTag:kSpriteManager];
+	CCSprite *bird = (CCSprite*)[spriteManager getChildByTag:kBird];
+	
+	bird_pos.x = 160;
+	bird_pos.y = 160;
+	bird.position = bird_pos;
+	
+	bird_vel.x = 0;
+	bird_vel.y = 0;
+	
+	bird_acc.x = 0;
+	bird_acc.y = -550.0f;
+	
+	birdLookingRight = YES;
+	bird.scaleX = 1.0f;
+}
+
+- (void)resetBonus {
+	//NSLog(@"resetBonus");
+	
+	CCSpriteSheet *spriteManager = (CCSpriteSheet*)[self getChildByTag:kSpriteManager];
+	CCSprite *bonus = (CCSprite*)[spriteManager getChildByTag:kBonusStartTag+currentBonusType];
+	bonus.visible = NO;
+	currentBonusPlatformIndex += random() % (kMaxBonusStep - kMinBonusStep) + kMinBonusStep;
+	//NSLog(@"...%@",currentBonusPlatformIndex);
+	/*
+	 if(score < 10000) {
+	 currentBonusType = 0;
+	 } else if(score < 50000) {
+	 currentBonusType = random() % 5;
+	 } else if(score < 100000) {
+	 currentBonusType = random() % 5;
+	 } else {
+	 currentBonusType = random() % 5;
+	 }
+	 */
+	
+	currentBonusType = random() % 7;
+	
+	
+}
+
+- (void)step:(ccTime)dt {
+	//	NSLog(@"Game::step");
+	
+	[super step:dt];
+	if(gameSuspended) return;
+	
+	CCSpriteSheet *spriteManager = (CCSpriteSheet*)[self getChildByTag:kSpriteManager];
+	CCSprite *bird = (CCSprite*)[spriteManager getChildByTag:kBird];
+	
+	bird_pos.x += bird_vel.x * dt;
+	
+	//判斷寵物靠左就臉向左
+	if(bird_vel.x < -30.0f && birdLookingRight) {
+		birdLookingRight = NO;
+		bird.scaleX = -1.0f;
+	} else if (bird_vel.x > 30.0f && !birdLookingRight) {
+		birdLookingRight = YES;
+		bird.scaleX = 1.0f;
+	}
+	
+	/*
+	 if(monster.position.x <=310.0){
+	 monster_max_x=monster.position.x+10;
+	 }
+	 
+	 if(monster.position.x >= 10.0){
+	 monster_min_x=monster.position.x-10;
+	 }
+	 
+	 if (monster.position.y<=470.0) {
+	 monster_max_y=-monster.position.y+10;
+	 }
+	 
+	 if(monster_min_y >= 10.0){
+	 monster_min_y=monster.position.y-10;
+	 }
+	 
+	 if(bird_pos.x>monster_min_x && bird_pos.x < monster_max_x && bird_pos.y>monster_min_y && bird_pos.y < monster_min_y ){
+	 [bird runAction: [CCMoveTo actionWithDuration:3 position:CGPointMake(bird_pos.x ,0)]];
+	 NSLog(@"you are deal");
+	 }
+	 */
+	CGSize bird_size = bird.contentSize;
+	//設定Sprite的width,heigh 以設定Sprite是否超過螢幕寬度
+	float max_x = 320-bird_size.width/2;
+	float min_x = 0+bird_size.width/2;
+	
+	//if(bird_pos.x>max_x) bird_pos.x = max_x;
+	//if(bird_pos.x<min_x) bird_pos.x = min_x;
+	//改成可以左右穿越
+	if(bird_pos.x>max_x) bird_pos.x=min_x;
+	if(bird_pos.x<min_x) bird_pos.x=max_x;
+	
+	bird_vel.y += bird_acc.y * dt;
+	bird_pos.y += bird_vel.y * dt;
+	
+	CCSprite *bonus = (CCSprite*)[spriteManager getChildByTag:kBonusStartTag+currentBonusType];
+	if(bonus.visible) {
+		CGPoint bonus_pos = bonus.position;
+		
+		
+		
+		//20 range改成10
+		float range = 20.0f;
+		if(bird_pos.x > bonus_pos.x - range &&
+		   bird_pos.x < bonus_pos.x + range &&
+		   bird_pos.y > bonus_pos.y - range &&
+		   bird_pos.y < bonus_pos.y + range ) {
+			switch(currentBonusType) {
+				case kBonus5:   score += 3000; [self action_music]; break;
+				case kBonus10:  score += 7000; [self action_music]; break;
+				case kBonus50:  score += 40000; [self action_music]; break;
+				case kBonus100: score += 80000;[self action_music]; break;
+				case kBonusdown50: score += 16400; [self action_music];break;	
+				case kBonusdown100: score += 33000;[self action_music]; break;
+				case kfly1000:bird_vel.y = 1350.0f + fabsf(bird_vel.x);[self action_music];  break;
+				case kfly500:bird_vel.y = 550.0f + fabsf(bird_vel.x);[self action_music]; break;
+			}
+			NSString *scoreStr = [NSString stringWithFormat:@"%d",score];
+			CCBitmapFontAtlas *scoreLabel = (CCBitmapFontAtlas*)[self getChildByTag:kScoreLabel];
+			[scoreLabel setString:scoreStr];
+			id a1 = [CCScaleTo actionWithDuration:0.2f scaleX:1.5f scaleY:0.8f];
+			id a2 = [CCScaleTo actionWithDuration:0.2f scaleX:1.0f scaleY:1.0f];
+			id a3 = [CCSequence actions:a1,a2,a1,a2,a1,a2,nil];
+			[scoreLabel runAction:a3];
+			[self resetBonus];
+		}
+	}
+	
+	int t;
+	
+	if(bird_vel.y < 0) {
+		
+		t = kPlatformsStartTag;
+		for(t; t < kPlatformsStartTag + kNumPlatforms; t++) {
+			
+			//platform指的是跳板
+			CCSprite *platform = (CCSprite*)[spriteManager getChildByTag:t];
+			
+			CGSize platform_size = platform.contentSize;
+			CGPoint platform_pos = platform.position;
+			//跳板必須限制在螢幕範圍之內
+			max_x = platform_pos.x - platform_size.width/2 - 10;
+			min_x = platform_pos.x + platform_size.width/2 + 10;
+			float min_y = platform_pos.y + (platform_size.height+bird_size.height)/2 - kPlatformTopPadding;
+			
+			if(bird_pos.x > max_x &&
+			   bird_pos.x < min_x &&
+			   bird_pos.y > platform_pos.y &&
+			   bird_pos.y < min_y) {
+				[self jump];
+				[self random_remove:platform sptag:t];
+				//[self jump_music];
+			}
+		}
+		
+		//掛掉
+		if(bird_pos.y < -bird_size.height/2) {
+			[[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
+			[self showHighscores];
+		}
+		
+	} else if(bird_pos.y > 240) {
+		
+		float delta = bird_pos.y - 240;
+		bird_pos.y = 240;
+		
+		currentPlatformY -= delta;
+		
+		t = kCloudsStartTag;
+		for(t; t < kCloudsStartTag + kNumClouds; t++) {
+			CCSprite *cloud = (CCSprite*)[spriteManager getChildByTag:t];
+			CGPoint pos = cloud.position;
+			pos.y -= delta * cloud.scaleY * 0.8f;
+			if(pos.y < -cloud.contentSize.height/2) {
+				currentCloudTag = t;
+				[self resetCloud];
+				/*
+				 switch (random()%5) {
+				 case 0:
+				 break;
+				 case 1:
+				 break;
+				 case 2:
+				 break;
+				 case 3:
+				 break;
+				 case 4:
+				 [self resetMonster];
+				 break;
+				 
+				 }
+				 */
+			} else {
+				cloud.position = pos;
+			}
+		}
+		
+		t = kPlatformsStartTag;
+		for(t; t < kPlatformsStartTag + kNumPlatforms; t++) {
+			CCSprite *platform = (CCSprite*)[spriteManager getChildByTag:t];
+			CGPoint pos = platform.position;
+			pos = ccp(pos.x,pos.y-delta);
+			if(pos.y < -platform.contentSize.height/2) {
+				currentPlatformTag = t;
+				[self resetPlatform];
+			} else {
+				platform.position = pos;
+			}
+		}
+		
+		if(bonus.visible) {
+			ccVertex2F pos = bonus.position;
+			pos.y -= delta;
+			if(pos.y < -bonus.contentSize.height/2) {
+				[self resetBonus];
+			} else {
+				bonus.position = pos;
+			}
+		}
+		
+		
+		
+		score += (int)delta;
+		NSString *scoreStr = [NSString stringWithFormat:@"%d",score];
+		
+		CCBitmapFontAtlas *scoreLabel = (CCBitmapFontAtlas*)[self getChildByTag:kScoreLabel];
+		[scoreLabel setString:scoreStr];
+	}
+	
+	bird.position = bird_pos;
+}
+
+- (void)random_remove:(CCSprite*) platform2 sptag:(int)tag{
+	
+	switch(random()%4) {
+		case 0:
+			//[self removeChildByTag:tag cleanup:YES];
+			[platform2 setVisible:NO];
+			break;
+		case 1: 
+			[platform2 setVisible:YES];
+			break;
+		case 2: 
+			[platform2 setVisible:YES];
+			break;
+		case 3:
+			[platform2 setVisible:YES];
+			break;
+		case 4:
+			[platform2 setVisible:YES];
+			break;	
+	}
+	
+}
+
+- (void)jump_music {
+	[[SimpleAudioEngine sharedEngine] playEffect:@"short_sheep.M4A"];
+}
+
+- (void)action_music {
+	if ([player isEqualToString:@"1"]) {
+		[[SimpleAudioEngine sharedEngine] playEffect:@"short_sheep.M4A"];
+	}else if([player isEqualToString:@"2"]){
+		[[SimpleAudioEngine sharedEngine] playEffect:@"cat.M4A"];
+	}else {
+		[[SimpleAudioEngine sharedEngine] playEffect:@"short_sheep.M4A"];
+	}
+	
+}
+
+- (void)jump {
+	bird_vel.y = 350.0f + fabsf(bird_vel.x);
+}
+
+
+- (void)doPause:(id)sender{
+	
+	[[CCDirector sharedDirector] pause];   //实现暂停效果
+	pause=[CCMenuItemImage itemFromNormalImage:@"play.png" selectedImage:@"play.png" target:self selector:@selector(doResume:)];
+	CCMenu *menu=[CCMenu menuWithItems:pause,nil];
+	[menu setPosition:CGPointMake(280, 450)];
+	[self removeChildByTag:881 cleanup:YES];
+	[self addChild:menu z:20 tag:882];
+}
+
+- (void)doResume:(id)sender{
+	[[CCDirector sharedDirector] resume];
+	pause=[CCMenuItemImage itemFromNormalImage:@"pause.png" selectedImage:@"pause.png" target:self selector:@selector(doPause:)];
+	CCMenu *menu=[CCMenu menuWithItems:pause,nil];
+	[menu setPosition:CGPointMake(280, 450)];
+	[self removeChildByTag:882 cleanup:YES];
+	[self addChild:menu z:19 tag:881];
+	
+}
+- (void)showHighscores {
+	//	NSLog(@"showHighscores");
+	gameSuspended = YES;
+	[[UIApplication sharedApplication] setIdleTimerDisabled:NO];
+	
+	//	NSLog(@"score = %d",score);
+	Highscores *highscores = [[Highscores alloc] initWithScore:score];
+	
+	CCScene *scene = [[CCScene node] addChild:highscores z:0];
+	[[CCDirector sharedDirector] replaceScene:[CCFadeTransition transitionWithDuration:1 scene:scene withColor:ccc3(255,0,0)]];
+}
+/*
+ - (BOOL)ccTouchesEnded:(NSSet*)touches withEvent:(UIEvent*)event {
+ NSLog(@"ccTouchesEnded");
+ 
+ [self showHighscores];
+ CCSpriteSheet *spriteManager = (CCSpriteSheet*)[self getChildByTag:kSpriteManager];
+ CCSprite *bonus = (CCSprite*)[spriteManager getChildByTag:kBonus];
+ bonus.position = ccp(160,30);
+ bonus.visible = !bonus.visible;
+ 
+ CCBitmapFontAtlas *scoreLabel = (CCBitmapFontAtlas*)[self getChildByTag:kScoreLabel];
+ id a1 = [CCScaleTo actionWithDuration:0.2f scaleX:1.5f scaleY:0.8f];
+ id a2 = [CCScaleTo actionWithDuration:0.2f scaleX:1.0f scaleY:1.0f];
+ id a3 = [CCSequence actions:a1,a2,a1,a2,a1,a2,nil];
+ [scoreLabel runAction:a3];
+ 
+ CCSpriteSheet *spriteManager = (CCSpriteSheet*)[self getChildByTag:kSpriteManager];
+ CCSprite *platform = (CCSprite*)[spriteManager getChildByTag:kPlatformsStartTag+5];
+ id a1 = [CCMoveBy actionWithDuration:2 position:ccp(100,0)];
+ id a2 = [CCMoveBy actionWithDuration:2 position:ccp(-200,0)];
+ id a3 = [CCSequence actions:a1,a2,a1,nil];
+ id a4 = [CCRepeatForever actionWithAction:a3];
+ [platform runAction:a4];
+ 
+ return kEventHandled;
+ }
+ */
+- (void)accelerometer:(UIAccelerometer*)accelerometer didAccelerate:(UIAcceleration*)acceleration {
+	if(gameSuspended) return;
+	float accel_filter = 0.1f;
+	bird_vel.x = bird_vel.x * accel_filter + acceleration.x * (1.0f - accel_filter) * 500.0f;
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+	//	NSLog(@"alertView:clickedButtonAtIndex: %i",buttonIndex);
+	
+	if(buttonIndex == 0) {
+		[self startGame];
+	} else {
+		[self startGame];
+	}
+}
+//讀取setting.plist 設定檔
+- (NSString *)readPlist:(NSString *)field
+
+{
+	NSError *error;
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES); //1
+	NSString *documentsDirectory = [paths objectAtIndex:0]; //2
+	NSString *path = [documentsDirectory stringByAppendingPathComponent:@"mySettings.plist"]; //3
+	
+	NSFileManager *fileManager = [NSFileManager defaultManager];
+	
+	if (![fileManager fileExistsAtPath: path]) //4
+	{
+		NSString *bundle = [[NSBundle mainBundle] pathForResource:@"mySettings" ofType:@"plist"]; //5
+		
+		[fileManager copyItemAtPath:bundle toPath: path error:&error]; //6
+	}
+	
+	NSMutableDictionary* plistDict = [[NSMutableDictionary alloc] initWithContentsOfFile:path];	
+	NSString *value; 
+	value = [plistDict objectForKey:(NSString *)field];
+	return value;
+}
+
+@end

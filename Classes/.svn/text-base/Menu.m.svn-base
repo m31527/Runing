@@ -1,0 +1,59 @@
+//
+//  Menu.m
+//  Runing
+//
+//  Created by Mac on 2010/7/31.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "Menu.h"
+#import "Player.h"
+#import "SimpleAudioEngine.h"
+
+@implementation Menu
+
++ (id)scene{
+	CCScene *scene=[CCScene node];
+	Menu *layer=[Menu node];
+	[scene addChild:layer];
+	return scene;
+}
+
+- (id)init{
+	if((self=[super init])){
+		
+		CCSprite *bg = [CCSprite spriteWithFile:@"start_game.png"];
+		bg.position =ccp(160,240);
+		[self addChild:bg];
+		
+		[CCMenuItemFont setFontName:@"Helvetica"];
+		CCMenuItem *menuItem1 =[CCMenuItemFont itemFromString:@" Play" target:self selector:@selector(scene1:)];
+		[self fontColor:menuItem1];
+		//CCMenuItem *menuItem2=[CCMenuItemFont itemFromString:@"About Game" target:self selector:@selector(scene2:)];
+		CCMenu *menu=[CCMenu menuWithItems:menuItem1,nil];
+		[menu alignItemsVertically];
+		[menu setPosition:ccp(160,240)];
+		[self addChild:menu];
+		//播放音樂
+		[[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"Sheep.M4A"];
+	}
+	return self;
+}
+
+- (void)scene1:(id)sender{
+	CCScene *scene_new = [[CCScene node] addChild:[Player node]];
+	[[CCDirector sharedDirector] pushScene:scene_new];
+	[[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
+}
+- (void)scene2:(id)sender{
+}
+
+- (void)fontColor:(CCMenuItem*)item{
+	
+	id color_action = [CCTintBy actionWithDuration:0.5f red:0 green:-255 blue:-255];
+	id color_back = [color_action reverse];
+	id seq = [CCSequence actions:color_action, color_back, nil];
+	[item runAction:[CCRepeatForever actionWithAction:seq]];
+	
+}
+@end
